@@ -1,8 +1,10 @@
 var map;
+var constructionCompanies;
 (function(){
 
     //config values
     var geojson_file = 'data/dk-municipalities.geojson';
+    var google_doc_id = '0Ak8prRBkmySYdFFyVEwtMXVHV0Rod1RMNVo1b3dEcFE';
     var geo_id = 'komnr';
     var color_id = 'Hovedtotal';
     var map_colors = [
@@ -25,23 +27,28 @@ var map;
     }).addTo(map);
 
     $.when($.getJSON(geojson_file)).then(
-        function(shapes){
-            var all_values = []
-            $.each(shapes.features, function(k, v){
-                all_values.push(+v.properties[color_id]);
-            });
-            jenks_cutoffs = jenks(all_values, 4);
-            jenks_cutoffs.unshift(0); // set the bottom value to 0
-            jenks_cutoffs[1] = 1; // set the bottom value to 0
-            jenks_cutoffs.pop(); // last item is the max value, so dont use it
+      function(shapes){
+        var all_values = []
+        $.each(shapes.features, function(k, v){
+            all_values.push(+v.properties[color_id]);
+        });
+        jenks_cutoffs = jenks(all_values, 4);
+        jenks_cutoffs.unshift(0); // set the bottom value to 0
+        jenks_cutoffs[1] = 1; // set the bottom value to 0
+        jenks_cutoffs.pop(); // last item is the max value, so dont use it
 
-            boundaries = L.geoJson(shapes, {
-                style: style,
-                onEachFeature: onEachFeature
-            }).addTo(map);
+        boundaries = L.geoJson(shapes, {
+            style: style,
+            onEachFeature: onEachFeature
+        }).addTo(map);
 
-            map.fitBounds(boundaries.getBounds());
-            legend.addTo(map);
+        map.fitBounds([[57.83890342754204, 13.260498046875],[54.15600109028491, 7.163085937499999]]).setZoom(default_zoom);
+        legend.addTo(map);
+
+        // go get the google doc
+        $.when(get_google_doc_data(google_doc_id)).then(
+          function(csv){
+            constructionCompanies = $.csv.toObjects(csv);
 
             var district = $.address.parameter(geo_id);
             if (district){
@@ -51,7 +58,8 @@ var map;
                     }
                 })
             }
-        }
+        });
+      }
     );
 
     function style(feature){
@@ -119,8 +127,32 @@ var map;
         layer.bindLabel(labelText);
     }
     function featureInfo(properties){
+        var companies = get_company_data_by_municipality(properties[geo_id]);
+
+        var company_table = '';
+        $.each(companies, function(i, c){
+          company_table += "\
+          <tr>\
+            <td>" + c['Firmanavn'] + "<br />" + c['Type'] + "</td>\
+            <td>" + c['Samlet beløb'] + "</td>\
+            <td>" + c['Timer'] + "</td>\
+            <td>" + c['Timeløn'] + "</td>\
+          </tr>"
+        });
+
         var blob = "<div>\
             <h3>" + properties['Kommune'] + " kommune</h3>\
+            <table class='table'>\
+              <thead>\
+                <tr>\
+                  <th>Firmanavn</th>\
+                  <th>Samlet beløb</th>\
+                  <th>Timer</th>\
+                  <th>Timeløn</th>\
+                </tr>\
+              </thead>\
+              <tbody>" + company_table + "</tbody>\
+            </table>\
             </div>";
         return blob
     }
@@ -139,5 +171,23 @@ var map;
           x1 = x1.replace(rgx, '$1' + ',' + '$2');
         }
         return x1 + x2;
-      }
+    }
+
+    function get_google_doc_data(doc_id){
+      var doc_url = "https://docs.google.com/spreadsheet/pub?key=" + doc_id + "&output=csv";
+      return $.ajax({
+          url: doc_url
+      });
+    }
+
+    function get_company_data_by_municipality(id){
+      //console.log('getting companies by ' + id);
+      var companies = []
+      $.each(constructionCompanies, function(i, obj){
+        //console.log(obj)
+        if (id == +obj['Kommunenr'])
+          companies.push(obj);
+      });
+      return companies;
+    }
 })()
