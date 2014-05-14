@@ -1,51 +1,80 @@
 var map;
 (function(){
-    var lastClicked;
-    var boundaries;
-    var marker;
-    map = L.map('map')
-        .fitBounds([[57.955674494979526, 15.710449218749998],[54.28446875235516, 7.470703125]])
-        .setZoom(7);
-    var googleLayer = new L.Google('ROADMAP', {animate: false});
-    map.addLayer(googleLayer);
-    map.on('zoomstart', function(e){
-        map.removeLayer(boundaries);
-        if (typeof marker !== 'undefined'){
-            map.removeLayer(marker);
-        }
-    })
-    google.maps.event.addListener(googleLayer._google, 'idle', function(e){
-        map.addLayer(boundaries);
-        if (typeof marker !== 'undefined'){
-            map.addLayer(marker);
-        }
-    })
-    google.maps.event.addListenerOnce(googleLayer._google, 'idle', function(e){
-        var district = $.address.parameter('komnr');
-        if (district && !address){
-            boundaries.eachLayer(function(layer){
-                if(layer.feature.properties['komnr'] == district){
-                    layer.fire('click');
-                }
-            })
-        }
-    })
-    var info = L.control({position: 'bottomleft'});
-    info.onAdd = function(map){
-        this._div = L.DomUtil.create('div', 'info');
-        return this._div;
-    }
 
+    //config values
+    var geojson_file = 'data/dk-municipalities.geojson';
+    var geo_id = 'komnr';
+    var color_id = 'Hovedtotal';
     var map_colors = [
-        '#cccccc',
+        '#fee5d9',
         '#fc9272',
         '#fb6a4a',
         '#de2d26',
         '#a50f15'
-    ]
+    ];
+    var highight_color = "#ffffb2";
+    var default_zoom = 7;
 
+    var lastClicked;
+    var boundaries;
+    var marker;
     var jenks_cutoffs = []
-    var legend = L.control({position: 'bottomright'});
+    map = L.map('map');
+    L.tileLayer('https://{s}.tiles.mapbox.com/v3/datamade.hn83a654/{z}/{x}/{y}.png', {
+        attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+    }).addTo(map);
+
+    $.when($.getJSON(geojson_file)).then(
+        function(shapes){
+            var all_values = []
+            $.each(shapes.features, function(k, v){
+                all_values.push(+v.properties[color_id]);
+            });
+            jenks_cutoffs = jenks(all_values, 4);
+            jenks_cutoffs.unshift(0); // set the bottom value to 0
+            jenks_cutoffs[1] = 1; // set the bottom value to 0
+            jenks_cutoffs.pop(); // last item is the max value, so dont use it
+
+            boundaries = L.geoJson(shapes, {
+                style: style,
+                onEachFeature: onEachFeature
+            }).addTo(map);
+
+            map.fitBounds(boundaries.getBounds());
+            legend.addTo(map);
+
+            var district = $.address.parameter(geo_id);
+            if (district){
+                boundaries.eachLayer(function(layer){
+                    if(layer.feature.properties[geo_id] == district){
+                        layer.fire('click');
+                    }
+                })
+            }
+        }
+    );
+
+    function style(feature){
+        var style = {
+            "color": "white",
+            "fillColor": getColor(feature.properties[color_id]),
+            "opacity": 1,
+            "weight": 1,
+            "fillOpacity": 0.7,
+        }
+        return style;
+    }
+
+    // get color depending on condition_title
+    function getColor(d) {
+        return  d >= jenks_cutoffs[3] ? map_colors[4] :
+                d >= jenks_cutoffs[2] ? map_colors[3] :
+                d >= jenks_cutoffs[1] ? map_colors[2] :
+                d >  jenks_cutoffs[0] ? map_colors[1] :
+                                        map_colors[0];
+    }
+
+    var legend = L.control({position: 'topright'});
 
     legend.onAdd = function (map) {
 
@@ -67,77 +96,16 @@ var map;
         return div;
     };
 
-    $.when($.getJSON('data/dk-municipalities.geojson')).then(
-        function(shapes){
-            var all_values = []
-            $.each(shapes.features, function(k, v){
-                all_values.push(+v.properties['Hovedtotal']);
-            });
-            jenks_cutoffs = jenks(all_values, 4);
-            jenks_cutoffs[0] = 0; // set the bottom value to 0
-            jenks_cutoffs[1] = 1; // set the bottom value to 0
-            jenks_cutoffs.pop(); // last item is the max value, so dont use it
-
-            console.log(jenks_cutoffs)
-            boundaries = L.geoJson(shapes, {
-                style: style,
-                onEachFeature: onEachFeature
-            }).addTo(map);
-            legend.addTo(map);
-        }
-    );
-
-    $('#search_address').geocomplete()
-        .bind('geocode:result', function(event, result){
-            if (typeof marker !== 'undefined'){
-                map.removeLayer(marker);
-            }
-            var lat = result.geometry.location.lat();
-            var lng = result.geometry.location.lng();
-            marker = L.marker([lat, lng]).addTo(map);
-            map.setView([lat, lng], 17);
-            var district = leafletPip.pointInLayer([lng, lat], boundaries);
-
-            $.address.parameter('address', encodeURI($('#search_address').val()));
-            district[0].fire('click');
-        });
-
-    var address = convertToPlainString($.address.parameter('address'));
-    if(address){
-        $("#search_address").val(address);
-        $('#search_address').geocomplete('find', address)
-    }
-
-    function style(feature){
-        var style = {
-            "color": "white",
-            "fillColor": getColor(feature.properties['Hovedtotal']),
-            "opacity": 1,
-            "weight": 1,
-            "fillOpacity": 0.8,
-        }
-        return style;
-    }
-
-    // get color depending on condition_title
-    function getColor(d) {
-        return  d >= jenks_cutoffs[3] ? map_colors[4] :
-                d >= jenks_cutoffs[2] ? map_colors[3] :
-                d >= jenks_cutoffs[1] ? map_colors[2] :
-                d >  jenks_cutoffs[0] ? map_colors[1] :
-                                        map_colors[0];
-    }
-
     function onEachFeature(feature, layer){
         layer.on('click', function(e){
             if(typeof lastClicked !== 'undefined'){
                 boundaries.resetStyle(lastClicked);
             }
-            e.target.setStyle({'fillColor':"#90BE44"});
+            e.target.setStyle({'fillColor': highight_color});
             $('#district-info').html(featureInfo(feature.properties));
             map.fitBounds(e.target.getBounds(), {padding: [50,50]});
             lastClicked = e.target;
-            $.address.parameter('komnr', feature.properties['komnr'])
+            $.address.parameter(geo_id, feature.properties[geo_id])
         });
 
         layer.on('mouseover', function(e){
@@ -151,9 +119,8 @@ var map;
         layer.bindLabel(labelText);
     }
     function featureInfo(properties){
-        var district = parseInt(properties['komnr']);
         var blob = "<div>\
-            <p>Stuff</p>\
+            <h3>" + properties['Kommune'] + " kommune</h3>\
             </div>";
         return blob
     }
