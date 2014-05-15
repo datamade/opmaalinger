@@ -75,11 +75,11 @@ var constructionCompanies;
 
     // get color depending on condition_title
     function getColor(d) {
-        return  d >= jenks_cutoffs[3] ? map_colors[4] :
-                d >= jenks_cutoffs[2] ? map_colors[3] :
-                d >= jenks_cutoffs[1] ? map_colors[2] :
-                d >  jenks_cutoffs[0] ? map_colors[1] :
-                                        map_colors[0];
+        return  d > jenks_cutoffs[4] ? map_colors[4] :
+                d > jenks_cutoffs[3] ? map_colors[3] :
+                d > jenks_cutoffs[2] ? map_colors[2] :
+                d > jenks_cutoffs[1] ? map_colors[1] :
+                                       map_colors[0];
     }
 
     var legend = L.control({position: 'topright'});
