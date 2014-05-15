@@ -100,7 +100,7 @@ var constructionCompanies;
                 from + (to ? '&ndash;' + to : '+'));
         }
 
-        div.innerHTML = "<div><strong>Companies</strong><br>" + labels.join('<br>') + '</div>';
+        div.innerHTML = "<div><strong>byggefirmaer</strong><br>" + labels.join('<br>') + '</div>';
         return div;
     };
 
@@ -123,7 +123,15 @@ var constructionCompanies;
           layer.setStyle({weight: 1})
         })
 
-        var labelText = feature.properties['Kommune'] + " kommune<br />" + parseInt(feature.properties['Hovedtotal']) + " companies";
+        var labelText = "<h4>" + feature.properties['Kommune'] + " kommune</h4>\
+            " + parseInt(feature.properties['Brol__gning']) + " Brol__gning<br />\
+            " + parseInt(feature.properties['BYG__Bygge_anl__gsarbejde']) + " BYG__Bygge_anl__gsarbejde<br />\
+            " + parseInt(feature.properties['DE__Bygge_anl__gsarbejde']) + " DE__Bygge_anl__gsarbejde<br />\
+            " + parseInt(feature.properties['Murerarbejdsm__nd']) + " Murerarbejdsm__nd<br />\
+            " + parseInt(feature.properties['Murersvende']) + " Murersvende<br />\
+            " + parseInt(feature.properties['Tagpap']) + " Tagpap<br />\
+            " + parseInt(feature.properties['T__mrerarbejde']) + " T__mrerarbejde<br />\
+            " + parseInt(feature.properties['Hovedtotal']) + " Hovedtotal";
         layer.bindLabel(labelText);
     }
     function featureInfo(properties){
