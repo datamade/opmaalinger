@@ -22,7 +22,7 @@ var constructionCompanies;
     var boundaries;
     var marker;
     var jenks_cutoffs = []
-    map = L.map('map');
+    map = L.map('map', {'scrollWheelZoom': false});
     L.tileLayer('https://{s}.tiles.mapbox.com/v3/datamade.hn83a654/{z}/{x}/{y}.png', {
         attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
     }).addTo(map);
@@ -184,13 +184,13 @@ var constructionCompanies;
             $('#district_info').html(featureInfo(feature.properties));
 
             sidebar_table = $("#company_table").dataTable({
-                "aaSorting": [[0, "asc"]],
+                "aaSorting": [[2, "desc"]],
                 "aoColumns": [
                     null,
                     null,
-                    null,
-                    null,
-                    null
+                    { "sType": "dk-currency" },
+                    { "sType": "dk-currency" },
+                    { "sType": "dk-currency" }
                 ],
                 "bFilter": false,
                 "bInfo": false,
@@ -230,6 +230,7 @@ var constructionCompanies;
         });
 
         var blob = "<div>\
+            <p><a href='index.html'>&laquo; home</a></p>\
             <h3>" + properties['Kommune'] + " kommune</h3>\
             <h4>Opmålinger i alt: <strong>" + properties['Hovedtotal'] + "</strong></h4>\
             <table class='table' id ='company_table'>\
