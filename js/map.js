@@ -96,7 +96,7 @@ var constructionCompanies;
               var kommune_table = "";
               $.each(shapes.features, function(i, f){
                 kommune_table += "\
-                <tr>\
+                <tr data-komnr='" + f.properties['komnr'] + "'>\
                   <td>" + f.properties['Kommune'] + "</td>\
                   <td class='bar hovedtotal'><span style='width:100%; background-color: " + getColor(f.properties['Hovedtotal']) + "'><strong>" + f.properties['Hovedtotal'] + "</strong></span></td>\
                 </tr>"
@@ -127,6 +127,14 @@ var constructionCompanies;
                   "bInfo": false,
                   "bPaginate": false,
                   "bAutoWidth": false
+              });
+
+              $('#kommune_table tr').click(function(){
+                var id = $(this).data('komnr');
+                boundaries.eachLayer(function(layer){
+                  if(+layer.feature.properties[geo_id] == id)
+                    layer.fire('click');
+                })
               });
             }
         });
