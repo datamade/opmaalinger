@@ -26,29 +26,62 @@ var constructionCompanies;
         attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
     }).addTo(map);
 
+    accounting.settings = {
+      currency: {
+        symbol : "kr.",   // default currency symbol is '$'
+        format: "%v%s", // controls output: %s = symbol, %v = value/number (can be object: see below)
+        decimal : ",",  // decimal point separator
+        thousand: ".",  // thousands separator
+        precision : 2   // decimal places
+      },
+      number: {
+        precision : 0,  // default precision on numbers is 0
+        thousand: ".",
+        decimal : ","
+      }
+    }
+
+    var types = [ 'Brolægning',
+                  'BYG- Bygge/anlægsarbejde',
+                  'DE- Bygge/anlægsarbejde',
+                  'Murerarbejdsmænd',
+                  'Murersvende',
+                  'Tagpap',
+                  'Tømrerarbejde',
+                  'Hovedtotal'
+                ]
+
     $.when($.getJSON(geojson_file)).then(
       function(shapes){
-        var all_values = []
-        $.each(shapes.features, function(k, v){
-            all_values.push(+v.properties[color_id]);
-        });
-        jenks_cutoffs = jenks(all_values, 4);
-        jenks_cutoffs.unshift(0); // set the bottom value to 0
-        jenks_cutoffs[1] = 1; // set the bottom value to 0
-        jenks_cutoffs.pop(); // last item is the max value, so dont use it
-
-        boundaries = L.geoJson(shapes, {
-            style: style,
-            onEachFeature: onEachFeature
-        }).addTo(map);
-
-        map.fitBounds([[57.83890342754204, 13.260498046875],[54.15600109028491, 7.163085937499999]]).setZoom(default_zoom);
-        legend.addTo(map);
 
         // go get the google doc
         $.when(get_google_doc_data(google_doc_id)).then(
           function(csv){
+
+            //company aggregation for each shape from google doc
             constructionCompanies = $.csv.toObjects(csv);
+
+            var all_values = []
+            for (var i = 0; i < shapes.features.length; i++) { 
+              var stats = get_company_stats_by_municipality(shapes.features[i].properties[geo_id]);
+              $.each(types, function(j, t){
+                shapes.features[i].properties[t] = stats[t];
+              });
+              all_values.push(shapes.features[i].properties[color_id]);
+            }
+
+            jenks_cutoffs = jenks(all_values, 4);
+            jenks_cutoffs.unshift(0); // set the bottom value to 0
+            jenks_cutoffs[1] = 1; // set the bottom value to 0
+            jenks_cutoffs.pop(); // last item is the max value, so dont use it
+
+            boundaries = L.geoJson(shapes, {
+                style: style,
+                onEachFeature: onEachFeature
+            }).addTo(map);
+
+            map.fitBounds([[57.83890342754204, 13.260498046875],[54.15600109028491, 7.163085937499999]]).setZoom(default_zoom);
+            legend.addTo(map);
 
             var district = $.address.parameter(geo_id);
             if (district){
@@ -123,15 +156,14 @@ var constructionCompanies;
           layer.setStyle({weight: 1})
         })
 
-        var labelText = "<h4>" + feature.properties['Kommune'] + " kommune</h4>\
+        var labelText = "<h4>" + feature.properties['Kommune'] + " kommune <br />Opmålinger i alt: " + feature.properties['Hovedtotal'] + "</h4>\
             " + parseInt(feature.properties['Brol__gning']) + " Brol__gning<br />\
             " + parseInt(feature.properties['BYG__Bygge_anl__gsarbejde']) + " BYG__Bygge_anl__gsarbejde<br />\
             " + parseInt(feature.properties['DE__Bygge_anl__gsarbejde']) + " DE__Bygge_anl__gsarbejde<br />\
             " + parseInt(feature.properties['Murerarbejdsm__nd']) + " Murerarbejdsm__nd<br />\
             " + parseInt(feature.properties['Murersvende']) + " Murersvende<br />\
             " + parseInt(feature.properties['Tagpap']) + " Tagpap<br />\
-            " + parseInt(feature.properties['T__mrerarbejde']) + " T__mrerarbejde<br />\
-            " + parseInt(feature.properties['Hovedtotal']) + " Hovedtotal";
+            " + parseInt(feature.properties['T__mrerarbejde']) + " T__mrerarbejde";
         layer.bindLabel(labelText);
     }
     function featureInfo(properties){
@@ -141,19 +173,23 @@ var constructionCompanies;
         $.each(companies, function(i, c){
           company_table += "\
           <tr>\
-            <td>" + c['Firmanavn'] + "<br />" + c['Type'] + "</td>\
-            <td>" + c['Samlet beløb'] + "</td>\
+            <td><strong>" + c['Firmanavn'] + "</strong><br />\
+            " + c['Byggeplads adresse'] + " " + c['Postnr'] + " " + c['Postby'] + "</td>\
+            <td>" + c['Type'] + "</td>\
+            <td>" + accounting.formatMoney(c['Samlet beløb']) + "</td>\
             <td>" + c['Timer'] + "</td>\
-            <td>" + c['Timeløn'] + "</td>\
+            <td>" + accounting.formatMoney(c['Timeløn']) + "</td>\
           </tr>"
         });
 
         var blob = "<div>\
             <h3>" + properties['Kommune'] + " kommune</h3>\
+            <h4>Opmålinger i alt: <strong>" + properties['Hovedtotal'] + "</strong></h4>\
             <table class='table'>\
               <thead>\
                 <tr>\
                   <th>Firmanavn</th>\
+                  <th>Type</th>\
                   <th>Samlet beløb</th>\
                   <th>Timer</th>\
                   <th>Timeløn</th>\
@@ -197,5 +233,27 @@ var constructionCompanies;
           companies.push(obj);
       });
       return companies;
+    }
+
+    function get_company_stats_by_municipality(id){
+      
+      var stats = {};
+      $.each(types, function(k, t){
+        stats[t] = 0;
+      });
+
+      $.each(constructionCompanies, function(i, c){
+        //console.log(obj)
+        if (id == +c['Kommunenr'])
+          $.each(types, function(j, t){
+            if (c['Type'] == t) {
+              stats[t] += 1;
+              stats['Hovedtotal'] += 1;
+            }
+          });
+      });
+
+      //console.log(stats);
+      return stats;
     }
 })()
