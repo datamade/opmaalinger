@@ -17,6 +17,7 @@ var constructionCompanies;
     var highight_color = "#ffffb2";
     var default_zoom = 7;
 
+    var sidebar_table;
     var lastClicked;
     var boundaries;
     var marker;
@@ -91,6 +92,43 @@ var constructionCompanies;
                     }
                 })
             }
+            else {
+              var kommune_table = "";
+              $.each(shapes.features, function(i, f){
+                kommune_table += "\
+                <tr>\
+                  <td>" + f.properties['Kommune'] + "</td>\
+                  <td class='bar hovedtotal'><span style='width:100%; background-color: " + getColor(f.properties['Hovedtotal']) + "'><strong>" + f.properties['Hovedtotal'] + "</strong></span></td>\
+                </tr>"
+              });
+
+              var default_sidebar = "<div>\
+                  <table class='table' id ='kommune_table'>\
+                    <thead>\
+                      <tr>\
+                        <th>Kommune</th>\
+                        <th>Hovedtotal</th>\
+                      </tr>\
+                    </thead>\
+                    <tbody>" + kommune_table + "</tbody>\
+                  </table>\
+                  </div>";
+              
+              $('#district_info').html(default_sidebar);
+
+              setBarWidthByNumber('hovedtotal');
+              sidebar_table = $("#kommune_table").dataTable({
+                  "aaSorting": [[1, "desc"]],
+                  "aoColumns": [
+                      null,
+                      { "sType": "num-html" }
+                  ],
+                  "bFilter": false,
+                  "bInfo": false,
+                  "bPaginate": false,
+                  "bAutoWidth": false
+              });
+            }
         });
       }
     );
@@ -143,7 +181,23 @@ var constructionCompanies;
                 boundaries.resetStyle(lastClicked);
             }
             e.target.setStyle({'fillColor': highight_color});
-            $('#district-info').html(featureInfo(feature.properties));
+            $('#district_info').html(featureInfo(feature.properties));
+
+            sidebar_table = $("#company_table").dataTable({
+                "aaSorting": [[0, "asc"]],
+                "aoColumns": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "bFilter": false,
+                "bInfo": false,
+                "bPaginate": false,
+                "bAutoWidth": false
+            });
+
             map.fitBounds(e.target.getBounds(), {padding: [50,50]});
             lastClicked = e.target;
             $.address.parameter(geo_id, feature.properties[geo_id])
@@ -170,15 +224,15 @@ var constructionCompanies;
             " + c['Byggeplads adresse'] + " " + c['Postnr'] + " " + c['Postby'] + "</td>\
             <td>" + c['Type'] + "</td>\
             <td>" + accounting.formatMoney(c['Samlet beløb']) + "</td>\
-            <td>" + c['Timer'] + "</td>\
+            <td>" + accounting.formatNumber(c['Timer']) + "</td>\
             <td>" + accounting.formatMoney(c['Timeløn']) + "</td>\
-          </tr>"
+          </tr>";
         });
 
         var blob = "<div>\
             <h3>" + properties['Kommune'] + " kommune</h3>\
             <h4>Opmålinger i alt: <strong>" + properties['Hovedtotal'] + "</strong></h4>\
-            <table class='table'>\
+            <table class='table' id ='company_table'>\
               <thead>\
                 <tr>\
                   <th>Firmanavn</th>\
@@ -209,23 +263,6 @@ var constructionCompanies;
         }
         return x1 + x2;
     }
-
-    // function initDataTable(){
-    //     sidebar_table = $("#breakdown").dataTable({
-    //         "aaSorting": [[1, "desc"]],
-    //         "aoColumns": [
-    //             null,
-    //             {'sType': 'currency'},
-    //             {'sType': 'currency'},
-    //             null
-    //         ],
-    //         "bFilter": false,
-    //         "bInfo": false,
-    //         "bPaginate": false,
-    //         "bRetrieve": true,
-    //         "bAutoWidth": false
-    //     });
-    // },
 
     function get_google_doc_data(doc_id){
       var doc_url = "https://docs.google.com/spreadsheet/pub?key=" + doc_id + "&output=csv";

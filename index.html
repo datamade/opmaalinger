@@ -49,8 +49,7 @@
             <div id='map'></div>
           </div>
           <div class='col-md-6'>
-            <div class='well' id='district-info'>
-              <p>Click on a district on the map for details</p>
+            <div id='district_info'>
             </div>
           </div>
         </div>
@@ -73,8 +72,18 @@
         <script src="js/leaflet.label.js"></script>
         <script src="/js/jquery.dataTables.min.js"></script>
         <script src="/js/jquery.dataTables.sorting.js"></script>
-
+        <script src="/js/listing.bars.js"></script>
         <script src="js/map.js"></script>
         <script src="js/analytics_lib.js"></script>
+
+        <script>
+          $(window).resize(function () {
+            var h = $(window).height(),
+              offsetTop = 50; // Calculate the top offset
+
+            $('#map').css('height', (h - offsetTop));
+            $('#district_info').css('height', (h - offsetTop ));
+          }).resize();
+        </script>
     </body>
 </html>
