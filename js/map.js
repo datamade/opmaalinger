@@ -179,7 +179,7 @@ var constructionCompanies;
                 from + (to ? '&ndash;' + to : '+'));
         }
 
-        div.innerHTML = "<div><strong>byggefirmaer</strong><br>" + labels.join('<br>') + '</div>';
+        div.innerHTML = "<div><strong>Opmålinger</strong><br>" + labels.join('<br>') + '</div>';
         return div;
     };
 
