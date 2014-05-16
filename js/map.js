@@ -156,14 +156,7 @@ var constructionCompanies;
           layer.setStyle({weight: 1})
         })
 
-        var labelText = "<h4>" + feature.properties['Kommune'] + " kommune <br />Opmålinger i alt: " + feature.properties['Hovedtotal'] + "</h4>\
-            " + parseInt(feature.properties['Brol__gning']) + " Brol__gning<br />\
-            " + parseInt(feature.properties['BYG__Bygge_anl__gsarbejde']) + " BYG__Bygge_anl__gsarbejde<br />\
-            " + parseInt(feature.properties['DE__Bygge_anl__gsarbejde']) + " DE__Bygge_anl__gsarbejde<br />\
-            " + parseInt(feature.properties['Murerarbejdsm__nd']) + " Murerarbejdsm__nd<br />\
-            " + parseInt(feature.properties['Murersvende']) + " Murersvende<br />\
-            " + parseInt(feature.properties['Tagpap']) + " Tagpap<br />\
-            " + parseInt(feature.properties['T__mrerarbejde']) + " T__mrerarbejde";
+        var labelText = "<h4>" + feature.properties['Kommune'] + " kommune <br />Opmålinger i alt: " + feature.properties['Hovedtotal'] + "</h4>";
         layer.bindLabel(labelText);
     }
     function featureInfo(properties){
@@ -216,6 +209,23 @@ var constructionCompanies;
         }
         return x1 + x2;
     }
+
+    // function initDataTable(){
+    //     sidebar_table = $("#breakdown").dataTable({
+    //         "aaSorting": [[1, "desc"]],
+    //         "aoColumns": [
+    //             null,
+    //             {'sType': 'currency'},
+    //             {'sType': 'currency'},
+    //             null
+    //         ],
+    //         "bFilter": false,
+    //         "bInfo": false,
+    //         "bPaginate": false,
+    //         "bRetrieve": true,
+    //         "bAutoWidth": false
+    //     });
+    // },
 
     function get_google_doc_data(doc_id){
       var doc_url = "https://docs.google.com/spreadsheet/pub?key=" + doc_id + "&output=csv";
