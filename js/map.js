@@ -219,6 +219,11 @@ var constructionCompanies;
         })
 
         var labelText = "<h4>" + feature.properties['Kommune'] + " kommune <br />Opmålinger i alt: " + feature.properties['Hovedtotal'] + "</h4>";
+        $.each(types, function(j, t){
+          if (t != 'Hovedtotal')
+            labelText += feature.properties[t] + " " + t + "<br />";
+        });
+
         layer.bindLabel(labelText);
     }
     function featureInfo(properties){
