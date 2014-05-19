@@ -30,7 +30,7 @@ var constructionCompanies;
     accounting.settings = {
       currency: {
         symbol : "kr.",   // default currency symbol is '$'
-        format: "%v%s", // controls output: %s = symbol, %v = value/number (can be object: see below)
+        format: "%v %s", // controls output: %s = symbol, %v = value/number (can be object: see below)
         decimal : ",",  // decimal point separator
         thousand: ".",  // thousands separator
         precision : 2   // decimal places
