@@ -154,10 +154,10 @@ var constructionCompanies;
 
     // get color depending on condition_title
     function getColor(d) {
-        return  d > jenks_cutoffs[4] ? map_colors[4] :
-                d > jenks_cutoffs[3] ? map_colors[3] :
-                d > jenks_cutoffs[2] ? map_colors[2] :
-                d > jenks_cutoffs[1] ? map_colors[1] :
+        return  d >  jenks_cutoffs[4] ? map_colors[4] :
+                d >  jenks_cutoffs[3] ? map_colors[3] :
+                d >  jenks_cutoffs[2] ? map_colors[2] :
+                d >= jenks_cutoffs[1] ? map_colors[1] :
                                        map_colors[0];
     }
 
@@ -171,11 +171,12 @@ var constructionCompanies;
             from, to;
 
         labels.push('<i style="background-color:' + getColor(0) + '"></i> 0');
-        for (var i = 1; i < grades.length; i++) {
-            from = grades[i];
+        labels.push('<i style="background-color:' + getColor(1) + '"></i> 1 &ndash; 4');
+        for (var i = 2; i < grades.length; i++) {
+            from = grades[i] + 1;
             to = grades[i + 1];
             labels.push(
-                '<i style="background-color:' + getColor(from + 0.01) + '"></i> ' +
+                '<i style="background-color:' + getColor(from + 1) + '"></i> ' +
                 from + (to ? '&ndash;' + to : '+'));
         }
 
@@ -243,7 +244,7 @@ var constructionCompanies;
         });
 
         var blob = "<div>\
-            <p><a href='index.html'>&laquo; home</a></p>\
+            <p><a href='index.html'>&laquo; Se hele landet</a></p>\
             <h3>" + properties['Kommune'] + " kommune</h3>\
             <h4>Opmålinger i alt: <strong>" + properties['Hovedtotal'] + "</strong></h4>\
             <table class='table' id ='company_table'>\
