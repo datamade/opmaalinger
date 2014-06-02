@@ -52,6 +52,7 @@ var constructionCompanies;
                   'Hovedtotal'
                 ]
 
+    $('#district_info').spin('large');
     $.when($.getJSON(geojson_file)).then(
       function(shapes){
 
@@ -137,6 +138,7 @@ var constructionCompanies;
                 })
               });
             }
+            $('#district_info').spin(false);
         });
       }
     );
@@ -235,11 +237,11 @@ var constructionCompanies;
           company_table += "\
           <tr>\
             <td><strong>" + c['Firmanavn'] + "</strong><br />\
-            " + c['Byggeplads adresse'] + " " + c['Postnr'] + " " + c['Postby'] + "</td>\
+            " + c['Byggeplads adresse'] + "<br />" + c['Postnr'] + " " + c['Postby'] + "</td>\
             <td>" + c['Type'] + "</td>\
-            <td>" + accounting.formatMoney(c['Samlet beløb']) + "</td>\
+            <td>" + accounting.formatNumber(c['Samlet beløb']) + "</td>\
             <td>" + accounting.formatNumber(c['Timer']) + "</td>\
-            <td>" + accounting.formatMoney(c['Timeløn']) + "</td>\
+            <td>" + accounting.formatNumber(c['Timeløn']) + "</td>\
           </tr>";
         });
 
@@ -252,9 +254,9 @@ var constructionCompanies;
                 <tr>\
                   <th>Firmanavn</th>\
                   <th>Type</th>\
-                  <th>Samlet beløb</th>\
+                  <th>Samlet beløb (kr.)</th>\
                   <th>Timer</th>\
-                  <th>Timeløn</th>\
+                  <th>Timeløn (kr.)</th>\
                 </tr>\
               </thead>\
               <tbody>" + company_table + "</tbody>\

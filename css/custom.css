@@ -16,10 +16,15 @@ color: #0570b0;
     overflow-x: hidden !important; 
     overflow-y: scroll;
     padding-right: 20px; 
+    min-height: 200px;
 }
 
 #kommune_table {
   cursor: pointer;
+}
+
+#kommune_table>tbody>tr>td {
+  padding: 3px;
 }
 
 .leaflet-google-layer{
