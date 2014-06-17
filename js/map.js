@@ -1,5 +1,6 @@
 var map;
 var constructionCompanies;
+var hover_labels = [];
 (function(){
 
     //config values
@@ -17,6 +18,7 @@ var constructionCompanies;
     var highight_color = "#ffffb2";
     var default_zoom = 7;
 
+    
     var sidebar_table;
     var lastClicked;
     var boundaries;
@@ -74,7 +76,7 @@ var constructionCompanies;
 
             jenks_cutoffs = jenks(all_values, 4);
             jenks_cutoffs.unshift(0); // set the bottom value to 0
-            jenks_cutoffs[1] = 1; // set the bottom value to 0
+            jenks_cutoffs[1] = 1; // set the second value to 1
             jenks_cutoffs.pop(); // last item is the max value, so dont use it
 
             boundaries = L.geoJson(shapes, {
@@ -173,7 +175,7 @@ var constructionCompanies;
             from, to;
 
         labels.push('<i style="background-color:' + getColor(0) + '"></i> 0');
-        labels.push('<i style="background-color:' + getColor(1) + '"></i> 1 &ndash; 4');
+        labels.push('<i style="background-color:' + getColor(1) + '"></i> 1 &ndash; ' + grades[2]);
         for (var i = 2; i < grades.length; i++) {
             from = grades[i] + 1;
             to = grades[i + 1];
@@ -195,6 +197,9 @@ var constructionCompanies;
             $('#district_info').html(featureInfo(feature.properties));
 
             sidebar_table = $("#company_table").dataTable({
+                "oLanguage": {
+                  "sEmptyTable": "Ingen målinger i perioden"
+                },
                 "aaSorting": [[2, "desc"]],
                 "aoColumns": [
                     null,
@@ -227,7 +232,7 @@ var constructionCompanies;
             labelText += feature.properties[t] + " " + t + "<br />";
         });
 
-        layer.bindLabel(labelText);
+        hover_labels.push(layer.bindLabel(labelText));
     }
     function featureInfo(properties){
         var companies = get_company_data_by_municipality(properties[geo_id]);
@@ -252,7 +257,7 @@ var constructionCompanies;
             <table class='table' id ='company_table'>\
               <thead>\
                 <tr>\
-                  <th>Firmanavn</th>\
+                  <th>Firmanavn/byggeplads</th>\
                   <th>Type</th>\
                   <th>Samlet beløb (kr.)</th>\
                   <th>Timer</th>\
@@ -320,4 +325,18 @@ var constructionCompanies;
       //console.log(stats);
       return stats;
     }
+
+    // function get_company_date_range(){
+    //   //console.log('getting companies by ' + id);
+    //   var current = moment();
+    //   var start = moment("Jan 1 2010");
+    //   var end = moment();
+
+    //   $.each(constructionCompanies, function(i, obj){
+    //     //console.log(obj)
+    //     current = moment(obj['Dato'], "DD-MMM-YY");
+    //     if ()
+    //   });
+    //   return companies;
+    // }
 })()
