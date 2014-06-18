@@ -64,6 +64,9 @@ var hover_labels = [];
 
             //company aggregation for each shape from google doc
             constructionCompanies = $.csv.toObjects(csv);
+            var date_range = get_company_date_range();
+
+            $("#page_title").html("Opmålinger " + date_range[0].format("DD/M YYYY") + " til " + date_range[1].format("DD/M YYYY") + "");
 
             var all_values = []
             for (var i = 0; i < shapes.features.length; i++) { 
@@ -326,17 +329,20 @@ var hover_labels = [];
       return stats;
     }
 
-    // function get_company_date_range(){
-    //   //console.log('getting companies by ' + id);
-    //   var current = moment();
-    //   var start = moment("Jan 1 2010");
-    //   var end = moment();
+    function get_company_date_range(){
+      //console.log('getting companies by ' + id);
+      var all_dates = [];
 
-    //   $.each(constructionCompanies, function(i, obj){
-    //     //console.log(obj)
-    //     current = moment(obj['Dato'], "DD-MMM-YY");
-    //     if ()
-    //   });
-    //   return companies;
-    // }
+      $.each(constructionCompanies, function(i, obj){
+        //console.log(obj)
+        all_dates.push(moment(obj['Dato'], "DD-MMM-YY").utc());
+      });
+
+      var date_range = [];
+      date_range[0] = moment.utc(Math.min.apply(Math, all_dates));
+      date_range[1] = moment.utc(Math.max.apply(Math, all_dates));
+
+      console.log(date_range);
+      return date_range;
+    }
 })()
