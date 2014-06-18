@@ -342,7 +342,6 @@ var hover_labels = [];
       date_range[0] = moment.utc(Math.min.apply(Math, all_dates));
       date_range[1] = moment.utc(Math.max.apply(Math, all_dates));
 
-      console.log(date_range);
       return date_range;
     }
 })()
