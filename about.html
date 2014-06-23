@@ -15,8 +15,6 @@
         <link href="css/font-awesome.css" rel="stylesheet">
 
         <link media="all" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%27+rel%3D%27stylesheet%27+type%3D%27text%2Fcss%27&amp;ver=3.8.1" id="velocity_googlefont_style-css" rel="stylesheet">
-        <link rel="stylesheet" href="css/leaflet.css">
-        <link rel="stylesheet" href="css/leaflet.label.css">
         <link rel="stylesheet" href="css/custom.css">
         <script src="js/modernizr-2.6.2.min.js"></script>
     </head>
@@ -30,7 +28,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class='navbar-brand' href="/" id="page_title"></a>
+          <a class='navbar-brand' href="/" id="page_title">Opmålinger</a>
           <span class='navbar-text visible-lg visible-md'>Afsluttede og indberettede regnskaber</span>
         </div>
         <div class="collapse navbar-collapse">
@@ -43,12 +41,9 @@
 
     <div class="container">
         <div class='row'>
-          <div class='col-md-6'>
-            <div id='map'></div>
-          </div>
-          <div class='col-md-6'>
-            <div id='district_info'>
-            </div>
+          <div class='col-md-12'>
+            <h1>About</h1>
+            <p>Content here ...</p>
           </div>
         </div>
 
@@ -61,28 +56,6 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="js/jquery.address.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/accounting.min.js"></script>
-        <script src="js/moment.min.js"></script>
-        <script src="js/jquery.csv-0.71.min.js"></script>
-        <script src="js/jenks.js"></script>
-        <script src="js/leaflet.js"></script>
-        <script src="js/leaflet.label.js"></script>
-        <script src="js/jquery.dataTables.min.js"></script>
-        <script src="js/jquery.dataTables.sorting.js"></script>
-        <script src="js/spin.min.js"></script>
-        <script src="js/jquery.spin.js"></script>
-        <script src="js/listing.bars.js"></script>
-        <script src="js/map.js"></script>
         <script src="js/analytics_lib.js"></script>
-
-        <script>
-          $(window).resize(function () {
-            var h = $(window).height(),
-              offsetTop = 50; // Calculate the top offset
-
-            $('#map').css('height', (h - offsetTop));
-            $('#district_info').css('height', (h - offsetTop ));
-          }).resize();
-        </script>
     </body>
 </html>
