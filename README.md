@@ -1,9 +1,11 @@
-# DK Construction Companies
+# Opmålinger
+
+Completed development projects in Denmark. Built in partnership with [Kaas & Mulvad](http://www.kaasogmulvad.dk/)
 
 ## Running locally
 
 ``` bash
-git clone git@github.com:datamade/dk-construction-companies.git
+git clone git@github.com:datamade/opmaalinger.git
 cd large-lots
 
 # to run locally
@@ -27,7 +29,7 @@ We used the following open source tools:
 ## Errors / Bugs
 
 If something is not behaving intuitively, it is a bug, and should be reported.
-Report it here: https://github.com/datamade/dk-construction-companies/issues
+Report it here: https://github.com/datamade/opmaalinger/issues
 
 ## Note on Patches/Pull Requests
  
@@ -38,4 +40,4 @@ Report it here: https://github.com/datamade/dk-construction-companies/issues
 
 ## Copyright
 
-Copyright (c) 2014 DataMade and Voices for Illinois Children. Released under the [MIT License](https://github.com/datamade/dk-construction-companies/blob/master/LICENSE).
+Copyright (c) 2014 DataMade. Released under the [MIT License](https://github.com/datamade/opmaalinger/blob/master/LICENSE).
