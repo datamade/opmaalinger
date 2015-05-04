@@ -1,0 +1,544 @@
+Id,Dato,Byggeplads adresse,Postnr,Postby,Kommune,Kommunenr,Type,firmaAdresse,Firmanavn,firmaPostnr,Samlet beløb,Timer,Timeløn
+617,06-Jan-14,Skolevænget 4,4622,Havdrup,Solrød,269,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"38,221.00",190.0,201.00
+618,13-Feb-14,Skolegade 28,7100,Vejle,Vejle,630,Murersvende,,Fruensgaard Byg,,"45,103.00",182.0,248.00
+619,24-Mar-14,Peder Skrams Vej 3,9900,Frederikshavn,Frederikshavn,813,Murersvende,,Vendia-Huset A/S,,"111,272.00",340.0,327.00
+620,20-Jan-14,Aabenraa,6200,Aabenraa,Aabenraa,580,Murersvende,,Norsgaard,,"71,988.00",300.0,240.00
+621,20-Mar-14,Silkeborg,8600,Silkeborg,Silkeborg,740,DE- Bygge/anlægsarbejde,,Aarsleff,,"540,033.00","2,379.0",227.00
+622,10-Jan-14,Aars,9600,Aars,Vesthimmerland,820,Murersvende,,Murerfirmaet Henriksen & Madsen,,"61,722.00",228.0,271.00
+623,23-Jan-14,Erslev,7950,Erslev,Morsø,773,BYG- Bygge/anlægsarbejde,,Byggefirmaet Knudsgaard,,"322,034.00","1,530.0",210.00
+624,31-Mar-14,Esbjerg,6700,Esbjerg,Esbjerg,561,DE- Bygge/anlægsarbejde,,,,"144,448.00",590.0,245.00
+625,06-Feb-14,Søndermarksvej,4000,Roskilde,Roskilde,265,Murersvende,,H. Nielsen & Søn A/S,,"209,838.00",900.0,233.00
+626,26-Mar-14,Gedskovvej 103,5300,kerteminde,Kerteminde,440,DE- Bygge/anlægsarbejde,,hansson&knudsen,,"917,827.00","4,249.0",216.00
+627,09-Jan-14,Hammeren,7900,Nykøbing,Morsø,773,Murersvende,,Witte Byg,,"88,888.00",404.0,220.00
+628,14-Jan-14,Skanderborg,8660,Skanderborg,Skanderborg,746,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"56,296.00",239.0,236.00
+629,20-Jan-14,Plantagevej,6330,Padborg,Aabenraa,580,Murersvende,,Brdr. Meyenburg,,"8,675.00",40.0,217.00
+630,06-Jan-14,Yrsavej 6,4000,Roskilde,Roskilde,265,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"51,192.00",238.0,215.00
+631,12-Mar-14,Bispehaven 2,9440,Aabybro,Jammerbugt,849,Murersvende,,KFS Boligbyg A/S,,"70,606.00",256.0,275.00
+632,06-Mar-14,Hobrovej 437,9200,Aalborg Sv,Aalborg,851,Murersvende,,Lund & Staun A/S,,"497,262.00","4,038.0",123.00
+633,31-Jan-14,Ageren 29,4000,Roskilde,Næstved,370,Murersvende,,HHM A/S,,"40,989.00",180.0,228.00
+634,20-Jan-14,Rugkobbel,6200,Aabenraa,Aabenraa,580,Murersvende,,Bo Michelsen A/S,,"4,323.00",20.0,216.00
+635,31-Mar-14,Sankt Jørgensgade,5000,Odense C,Odense,461,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & Søn Entreprenører A/S,,"322,929.00","1,327.0",243.00
+636,23-Jan-14,Tingstrupvej,7700,Thisted,Thisted,787,Murersvende,,Erling Jensen A/S,,"929,204.00","3,840.0",242.00
+637,24-Mar-14,Havnegade 30,5800,Nyborg,Nyborg,450,Murersvende,,"Dreier & Co., Nyborg A/S",,"144,011.00",561.0,257.00
+638,13-Jan-14,Jernholmen,2650,Hvidovre,Hvidovre,167,Tagpap,,Rationel Tagdækning A/S,,"26,114.00",130.0,201.00
+640,09-Jan-14,Materielvej 3,7470,Karup ,Viborg,791,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"112,738.00",551.0,205.00
+642,05-Feb-14,Peder Skrams Vej 3,9900,Frederikshavn,Frederikshavn,813,Murersvende,,Vendia Huset A/S,,"43,110.00",162.0,266.00
+644,31-Mar-14,Amerikavej,6700,Esbjerg,Esbjerg,561,Tagpap,,Icopal A/S Kolding,,813.00,4.0,203.00
+645,20-Jan-14,Aabenrå,6200,Aabenraa,Aabenraa,580,Murersvende,,SCAN - Byg,,208.00,1.0,208.00
+646,25-Mar-14,Højstrupvej 9,5200,Odense V,Odense,461,DE- Bygge/anlægsarbejde,,,,"53,776.00",246.0,219.00
+647,10-Mar-14,Møllemoseparken 102,3450,Allerød,Allerød,201,Murerarbejdsmænd,,Lind & Risør,,"35,226.00",140.0,252.00
+648,23-Jan-14,Erslev,7950,Erslev,Morsø,773,Murersvende,,Erling Jensen A/S,,"112,575.00",503.0,224.00
+650,24-Mar-14,Strandvejen,5800,Nyborg,Nyborg,450,Murersvende,,Mørk & Skov ApS,,"29,758.00",99.0,299.00
+651,12-Mar-14,Løgten Østervej 34,8541,Skødstrup,Århus,751,Murersvende,,KFS Boligbyg A/S,,"67,159.00",213.0,315.00
+652,24-Feb-14,Bispehaven 2,9440,Aabybro,Jammerbugt,849,Murersvende,,KFS Boligbyg A/S,,"34,973.00",116.0,301.00
+653,03-Mar-14,Særkærparken 75,7500,Holstebro,Holstebro,661,Tømrerarbejde,,Bjarne Toft,,"35,008.00",160.0,219.00
+654,21-Mar-14,Aarhus,8200,Aarhus,Århus,751,DE- Bygge/anlægsarbejde,,NCC,,"2,051,500.00","9,325.0",220.00
+655,06-Jan-14,Rævehøjen 4,4000,Roskilde,Roskilde,265,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"42,198.00",173.0,244.00
+656,27-Feb-14,Ingemannsvej,4600,Køge,Køge,259,Murerarbejdsmænd,,Lind & Risør,,"27,014.00",106.0,255.00
+657,20-Jan-14,Østergade 49,6230,Rødekro,Aabenraa,580,Murersvende,,Rudebeck A/S,,"8,863.00",24.0,377.00
+658,23-Jan-14,Fabriksvej,7800,Skive,Skive,779,BYG- Bygge/anlægsarbejde,,Steen Ginnerup,,"8,160.00",40.0,204.00
+659,11-Mar-14,Peter Heises Kvater 11.,9700,Brønderslev,Brønderslev,810,Murersvende,,KFS Boligbyg A/S,,"49,540.00",209.0,237.00
+660,06-Mar-14,Gyvellunden 32,9600,Aars,Vesthimmerland,820,Murersvende,,Murerfirmaet Henriksen & Madsen,,"245,012.00","1,234.0",199.00
+661,27-Mar-14,Rebild Skovhusevej 16,9520,Skørping,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"36,672.00",169.0,217.00
+662,04-Feb-14,Graham Bells Vej,8200,Århus N,Århus,751,Murersvende,,Hornum Murer og Entreprenørforretning,,"68,289.00",336.0,203.00
+663,29-Jan-14,Gedskovvej 103,5300,kerteminde,Kerteminde,440,Murersvende,,Hansson & Knudsen A/S,,"205,955.00",833.0,247.00
+664,18-Mar-14,Fabriksvej,8200,Århus N,Århus,751,Tagpap,,Hetag,,"53,568.00",248.0,216.00
+666,06-Feb-14,Jernholmen,2640,Hedehusene,Hvidovre,167,Tagpap,,Rationel Tagdækning A/S,,"17,687.00",87.0,203.00
+667,13-Mar-14,Vangen Blok,9400,Nørresundby,Aalborg,851,Murersvende,,MT Højgaard a/s,,"344,745.00","1,347.0",256.00
+668,04-Mar-14,Falen 227,5200,Odense V,Odense,461,Murersvende,,E. Christiansen & Søn Tømrer- og Murerfirma ApS,,"56,680.00",178.0,318.00
+669,31-Mar-14,Esbjerg,6700,Esbjerg,Esbjerg,561,DE- Bygge/anlægsarbejde,,,,"40,182.00",222.0,181.00
+670,23-Jan-14,Sødisbakker,9550,Mariager,Mariagerfjord,846,Murersvende,,Nco Byg A/S,,"390,610.00","1,106.0",353.00
+671,14-Jan-14,Århus,8000,Århus,Århus,751,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"163,310.00",725.0,225.00
+672,26-Jan-14,Vangen ,9400,Nørresundby,Aalborg,851,Murersvende,,MT Højgaard a/s,,"409,142.00","1,760.0",232.00
+673,21-Feb-14,Krügersvej 29,8600,Silkeborg,Silkeborg,740,Murersvende,,Bach Byg A/S,,"14,977.00",47.0,319.00
+674,06-Feb-14,Jernholmen,2650,Hvidovre,Hvidovre,167,Tagpap,,Rationel Tagdækning A/S,,"63,417.00",315.0,201.00
+675,06-Jan-14,Skolevænget 12,4622,Havdrup,Solrød,269,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"41,435.00",181.0,229.00
+676,31-Mar-14,Grindsted,7200,Grindsted,Billund,530,DE- Bygge/anlægsarbejde,,KG Hansen & Sønner,,"203,750.00",939.0,217.00
+677,12-Mar-14,Hedesvinget 24,9520,Skørping,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"93,959.00",290.0,324.00
+678,31-Mar-14,Kanalen 1,6700,Esbjerg,Esbjerg,561,Tagpap,,Rationel Tagdækning A/S,,"119,917.00",585.0,205.00
+679,27-Mar-14,Enebærvej,5200,Ejslstrup,Odense,461,BYG- Bygge/anlægsarbejde,,T.C. Anlæg,,"1,251,542.00","4,865.0",257.00
+680,20-Jan-14,Trigesvej 30,6100,Haderslev,Haderslev,510,Murersvende,,Bo Michelsen A/S,,"88,856.00",339.0,262.00
+681,10-Mar-14,Møllemoseparken 112,3450,Allerød,Allerød,201,Murerarbejdsmænd,,Lind & Risør,,"36,226.00",145.0,250.00
+682,12-Mar-14,Ølsvej 9.,9500,Hobro,Mariagerfjord,846,Murersvende,,KFS Boligbyg A/S,,"87,884.00",268.0,327.00
+684,06-Feb-14,Jernholmen,2650,Hvidovre,Hvidovre,167,Tagpap,,Rationel Tagdækning A/S,,"24,790.00",122.0,203.00
+685,06-Feb-14,Søndermarksvej,4000,Roskilde,Roskilde,265,Murerarbejdsmænd,,H. Nielsen & Søn A/S,,"72,450.00",314.0,231.00
+686,14-Jan-14,Randers,8960,Randers Sø,Randers,730,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"55,957.00",244.0,229.00
+687,20-Feb-14,Krügersvej 21,8600,Silkeborg,Silkeborg,740,Murersvende,,Bach Byg A/S,,"12,307.00",40.0,308.00
+688,21-Jan-14,Suensonsvej,7500,Holstebro,Holstebro,661,Tømrerarbejde,,Bjarne Toft,,"24,549.00",109.0,225.00
+689,12-Mar-14,Grævlingen 8,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"173,000.00",850.0,204.00
+690,27-Mar-14,Thistedvej 29,9400,Nørresundby,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"16,831.00",74.0,227.00
+691,12-Mar-14,Kastanie Alle 3,9320,Hjallerup,Brønderslev,810,Murersvende,,Vendia-Huset A/S,,"71,589.00",335.0,214.00
+692,13-Feb-14,Ærøvej,8800,Viborg,Viborg,791,Murersvende,,Bach Byg A/S,,"10,318.00",32.0,322.00
+693,31-Jan-14,Ageren 29,4000,Roskilde,Næstved,370,Murerarbejdsmænd,,HHM A/S,,"30,852.00",136.0,227.00
+694,28-Jan-14,Skovlunden,8831,Løgstrup,Viborg,791,Murersvende,,Bach Byg A/S,,"84,299.00",264.0,319.00
+695,06-Jan-14,Bolbrovillavej 15,2960,Rungsted Kyst,Hørsholm,223,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"55,424.00",208.0,266.00
+696,20-Jan-14,Østergade 49,6230,Rødekro,Aabenraa,580,Murersvende,,Rudebeck A/S,,"6,137.00",20.0,307.00
+697,10-Mar-14,Grøftestykkerne,4700,Næstved,Næstved,370,Murersvende,,Lind & Risør,,"35,014.00",139.0,252.00
+698,31-Mar-14,Højstrupvej 9,5200,Odense V,Odense,461,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & søn,,"497,916.00","2,210.0",225.00
+699,23-Jan-14,Anbækvej 23,8450,Hammel,Favrskov,710,BYG- Bygge/anlægsarbejde,,Steen Ginnerup,,"170,443.00",755.0,226.00
+700,11-Mar-14,Industrivej 25,8800,Viborg,Viborg,791,Murersvende,,Murerfirmaet Henriksen & Madsen,,"52,062.00",262.0,199.00
+701,31-Mar-14,Fredrik Bajers Vej 5,9220,Aalborg Ø,Aalborg,851,DE- Bygge/anlægsarbejde,,,,"449,920.00","2,368.0",190.00
+702,28-Jan-14,Skovlunden,8831,Løgstrup,Viborg,791,Murersvende,,Bach Byg A/S,,"7,664.00",24.0,319.00
+703,21-Mar-14,Aarhus,8200,Aarhus,Århus,751,DE- Bygge/anlægsarbejde,,NCC,,"522,600.00","2,613.0",200.00
+704,14-Mar-14,Vangen Blok,9400,Nørresundby,Aalborg,851,Murersvende,,MT Højgaard a/s,,"345,237.00","1,347.0",256.00
+705,10-Mar-14,Møllemoseparken 142,3450,Allerød,Allerød,201,Murerarbejdsmænd,,Lind & Risør,,"38,226.00",153.0,250.00
+706,07-Jan-14,Kanslergade,5000,Odense C,Odense,461,Murersvende,,Axel Poulsen Holding ApS,,"669,839.00","2,559.0",262.00
+707,18-Mar-14,Skejby,8200,Aarhus,Århus,751,BYG- Bygge/anlægsarbejde,,RBS,,"513,579.00","1,138.0",451.00
+708,20-Mar-14,Gyvellunden 32,9600,Aars,Vesthimmerland,820,Murersvende,,Murerfirmaet Henriksen & Madsen,,"65,267.00",341.0,191.00
+709,05-Feb-14,Sdr. Truevej 20. Vebbestrup,9500,Hobro,Mariagerfjord,846,Murersvende,,KFS Boligbyg A/S,,"32,007.00",116.0,276.00
+710,19-Feb-14,Ejlstrup,5200,Odense V,Odense,461,BYG- Bygge/anlægsarbejde,,T.C. Anlæg,,"1,251,542.00","4,865.0",257.00
+711,23-Jan-14,Skive,7800,Skive,Skive,779,BYG- Bygge/anlægsarbejde,,Steen Ginnerup,,"33,613.00",131.0,257.00
+713,20-Jan-14,Grundvigsparken,6400,Sønderborg,Sønderborg,540,Murersvende,,Bo Michelsen A/S,,"190,637.00","1,231.0",155.00
+714,20-Jan-14,Skovgårdsparken Aabenraa,6200,Aabenraa,Aabenraa,580,Murersvende,,Brdr. Meyenburg,,"19,985.00",84.0,238.00
+715,14-Jan-14,Tværmosevej 10,7830,Vinderup,Holstebro,661,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"671,536.00","2,965.0",226.00
+716,09-Jan-14,Erhvervsparken 6,9632,Møldrup,Viborg,791,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"117,297.00",529.0,222.00
+717,25-Mar-14,Ringe,5700,Ringe,Svendborg,479,Tagpap,,Phønix tag,,"27,237.00",135.0,202.00
+719,10-Jan-14,Kassandravej 30,9210,Aalborg Sø,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"56,993.00",192.0,296.00
+720,05-Feb-14,Flade Rævedalsvej 10,9900,Frederikshavn,Frederikshavn,813,BYG- Bygge/anlægsarbejde,,KFS Boligbyg A/S,,"29,333.00",121.0,243.00
+722,15-Jan-14,Lykkegade,9400,Nørresundby,Aalborg,851,Murersvende,,Simonsen & Wendt A/S,,"90,891.00",488.0,186.00
+723,09-Jan-14,Søndergade 1,7800,Skive,Skive,779,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"863,603.00","3,923.0",220.00
+725,27-Mar-14,Ringe,5750,Ringe,Faaborg-Midtfyn,430,Tagpap,,Phønix tag,,"27,966.00",149.0,188.00
+726,31-Jan-14,Dokhavnsvej 15,4400,Kalundborg,Kalundborg,326,Murersvende,,EBC Murerfirma,,"70,570.00",328.0,215.00
+727,06-Jan-14,Skovengen 5,2791,Dragør,Dragør,155,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"70,024.00",274.0,256.00
+728,31-Mar-14,Esbjerg,6700,Esbjerg,Esbjerg,561,DE- Bygge/anlægsarbejde,,,,"302,500.00","1,137.0",266.00
+730,20-Mar-14,Silkeborg,8600,Silkeborg,Silkeborg,740,DE- Bygge/anlægsarbejde,,MTH,,"478,642.00","2,689.0",178.00
+731,23-Jan-14,Århus,8200,Århus N,Århus,751,BYG- Bygge/anlægsarbejde,,Steen Ginnerup,,"47,344.00",178.0,266.00
+732,10-Mar-14,Møllemoseparken 122,3450,Allerød,Allerød,201,Murerarbejdsmænd,,Lind & Risør,,"37,226.00",150.0,248.00
+733,23-Jan-14,Erslev,7950,Erslev,Morsø,773,Murersvende,,AH Byg,,"95,918.00",436.0,220.00
+734,09-Jan-14,Søndergade 1,7800,Skive,Skive,779,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"613,212.00","2,700.0",227.00
+738,09-Jan-14,Skive,7800,Skive,Skive,779,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"7,567.00",33.0,229.00
+739,10-Jan-14,Peter Heises Kvater 11.,9700,Brønderslev,Brønderslev,810,Murersvende,,KFS Boligbyg A/S,,"81,549.00",266.0,306.00
+740,14-Jan-14,Søndergade 1,7800,Skive,Skive,779,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"204,012.00","1,660.0",123.00
+741,31-Jan-14,Dokhavnsvej 15,6700,Esbjerg,Esbjerg,561,Murerarbejdsmænd,,EBC Murerfirma,,"46,257.00",215.0,215.00
+743,09-Jan-14,Tastumvej 18,7850,Stoholm ,Viborg,791,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"107,944.00",482.0,224.00
+744,27-Feb-14,Ingemannsvej,4600,Køge,Køge,259,Murersvende,,Lind & Risør,,"37,103.00",145.0,256.00
+745,31-Mar-14,Højstrupvej 9,5200,Odense V,Odense,461,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & Søn A/S,,"1,898,510.00","8,460.0",224.00
+748,09-Jan-14,Jegstrupvej 9,7800,Skive,Skive,779,DE- Bygge/anlægsarbejde,,Kaj Ove Madsen A/S,,"561,176.00","2,399.0",234.00
+749,20-Jan-14,Lynghaven 18,6400,Sønderborg,Sønderborg,540,Murersvende,,,,"31,795.00",150.0,212.00
+750,28-Jan-14,Silkeborg,8600,Silkeborg,Silkeborg,740,DE- Bygge/anlægsarbejde,,Aarsleff,,"614,460.00","2,793.0",220.00
+751,31-Mar-14,Esbjerg,6700,Esbjerg,Esbjerg,561,Tagpap,,Rationel Tagdækning A/S,,"119,917.00",585.0,205.00
+752,24-Feb-14,Sneumvej 30,9340,Asaa,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"29,262.00",133.0,220.00
+754,28-Jan-14,Drøvten 18,9310,Vodskov,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"30,656.00",118.0,260.00
+755,02-Apr-14,Campusvej,5220,Odense Sø,Odense,461,Tagpap,,Phønix,,"33,363.00",167.0,200.00
+756,03-Apr-14,Boulevarden 48,7100,Vejle,Vejle,630,Tagpap,,Rationel Tagdækning A/S,,"126,293.00",615.0,205.00
+757,03-Apr-14,Uoplyst,2640,Hedehusene,Høje-Taastrup,169,Tagpap,,Rationel Tagdækning A/S,,"3,499.00",16.0,219.00
+758,03-Apr-14,Uoplyst,2640,Hedehusene,Høje-Taastrup,169,Tagpap,,Rationel Tagdækning A/S,,"6,691.00",30.0,223.00
+759,03-Apr-14,Uoplyst,2640,Hedehusene,Høje-Taastrup,169,Tagpap,,Rationel Tagdækning A/S,,"13,045.00",60.0,217.00
+760,03-Apr-14,Uoplyst,7000,Fredericia,Fredericia,607,DE- Bygge/anlægsarbejde,,Hansson & Knudsen,,"123,908.00",606.0,204.00
+762,04-Apr-14,Store Trane Gade 22,9240,Nibe,Aalborg,851,Tagpap,,Egon Kjeldsen Tagdækning ApS,,"6,093.00",21.0,290.00
+763,04-Apr-14,Vivaldisvej 21-22,9200,Aalborg Sv,Aalborg,851,Murersvende,,Vendia-Huset A/S,,"60,873.00",228.0,267.00
+764,04-Apr-14,Mølleskoven 7,9260,Gistrup,Aalborg,851,Tagpap,,Egon Kjeldsen Tagdækning ApS,,"18,033.00",59.0,306.00
+765,07-Apr-14,Uoplyst,4000,Roskilde,Roskilde,265,DE- Bygge/anlægsarbejde,,Georg Berg,,"1,896,250.00","9,250.0",205.00
+766,07-Apr-14,Uoplyst,4000,Roskilde,Roskilde,265,DE- Bygge/anlægsarbejde,,Georg Berg,,"85,692.00",444.0,193.00
+767,07-Apr-14,Grønningen,4200,Slagelse,Slagelse,330,DE- Bygge/anlægsarbejde,,"Peter Christensen, Broby ApS",,"2,301,696.00","10,656.0",216.00
+768,07-Apr-14,Uoplyst,2640,Hedehusene,Høje-Taastrup,169,Tagpap,,Rationel Tagdækning A/S,,"471,746.00","2,325.0",203.00
+769,07-Apr-14,Uoplyst,2640,Hedehusene,Høje-Taastrup,169,Tagpap,,Rationel Tagdækning A/S,,"19,660.00",98.0,201.00
+770,08-Apr-14,Lufthavnsvej 25,9400,Nørresundby,Aalborg,851,Tagpap,,Egon Kjeldsen Tagdækning ApS,,"55,345.00",189.0,293.00
+771,09-Apr-14,Hedesvinget 24,9520,Skørping,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"37,654.00",176.0,214.00
+772,09-Apr-14,Campusvej,5220,Odense Sø,Odense,461,Tagpap,,Phønix,,"3,008.00",15.0,201.00
+774,10-Apr-14,Campusvej,5220,Odense Sø,Odense,461,Tagpap,,Phønix,,"50,204.00",199.0,252.00
+775,14-Apr-14,Hulvejen 167 B,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"48,030.00",141.0,342.00
+776,14-Apr-14,Nejstgårdvej 105,9850,Hirtshals,Hjørring,860,Murersvende,,KFS Boligbyg A/S,,"74,639.00",222.0,336.00
+777,14-Apr-14,Grænsevej 47,2650,Hvidovre,Hvidovre,167,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"67,414.00",284.0,237.00
+778,14-Apr-14,Præstevænget 1,3500,Værløse,Furesø,190,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"72,878.00",262.0,278.00
+779,14-Apr-14,Østervænget 13,4000,Roskilde,Roskilde,265,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"47,144.00",172.0,274.00
+780,14-Apr-14,Østervænget 47,4000,Roskilde,Roskilde,265,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"45,997.00",169.0,272.00
+781,14-Apr-14,Sverigesvej 16,2800,Lyngby,Lyngby-Taarbæk,173,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"48,420.00",196.0,247.00
+782,14-Apr-14,Grønne Vænge,2920,Charlottenlund,Gentofte,157,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"95,417.00",441.0,216.00
+783,14-Apr-14,Rolighedsvej 36,3500,Værløse,Furesø,190,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"125,329.00",618.0,203.00
+784,14-Apr-14,Skovfryd 2,2800,Lyngby,Lyngby-Taarbæk,173,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"56,524.00",240.0,236.00
+785,15-Apr-14,Campusvej,5220,Odense Sø,Odense,461,Tagpap,,Phønix,,"4,161.00",15.0,277.00
+786,16-Apr-14,Vesterbrogade 8,8800,Viborg,Viborg,791,Murersvende,,Bach Byg A/S,,"10,846.00",34.0,319.00
+788,23-Apr-14,Ringstedgade,4700,Næstved,Næstved,370,DE- Bygge/anlægsarbejde,,Arkil Bro & Beton,,"1,522,500.00","7,500.0",203.00
+789,24-Apr-14,Telgårdsparken,5500,Middelfart,Middelfart,410,Murersvende,,Nielsen & Rasmussen A/S,,"30,695.00",137.0,225.00
+790,28-Apr-14,Ringstedgade,4700,Næstved,Næstved,370,DE- Bygge/anlægsarbejde,,Arkil Bro & Beton,,"1,522,500.00","7,500.0",203.00
+791,28-Apr-14,Humlehaven ,5792,Årslev,Faaborg-Midtfyn,430,Murersvende,,Axel Poulsen Holding ApS,,"676,568.00","2,942.0",230.00
+792,29-Apr-14,Humlehaven ,5792,Årslev,Faaborg-Midtfyn,430,Murersvende,,Axel Poulsen Holding ApS,,"81,479.00",324.0,251.00
+793,29-Apr-14,Uoplyst,5800,Nyborg,Nyborg,450,Murersvende,,"Dreier & Co., Nyborg A/S",,"144,011.00",561.0,257.00
+794,29-Apr-14,Uoplyst,5792,Årslev,Faaborg-Midtfyn,430,Murersvende,,Daugaard Byg A/S,,"66,439.00",232.0,286.00
+795,29-Apr-14,Strandvejen  ,5800,Nyborg,Nyborg,450,Murersvende,,Mørk & Skov ApS,,"21,068.00",94.0,224.00
+796,29-Apr-14,Prangervej 162,7000,Fredericia,Fredericia,607,Murersvende,,Hansson & Knudsen A/S,,"150,765.00",651.0,232.00
+798,02-May-14,Ny Lufthavnsvej 96,9400,Nørresundby,Aalborg,851,DE- Bygge/anlægsarbejde,,"A. Enggaard A/S, Entreprenør- og Byggefirma",,"366,871.00","1,462.0",251.00
+799,02-May-14,Ridehusgade,5000,Odense C,Odense,461,Murersvende,,Hansson & Knudsen A/S,,"321,686.00","1,150.0",280.00
+800,06-May-14,Strandgårds Allé,5300,Kerteminde,Kerteminde,440,Murersvende,,Axel Poulsen Holding ApS,,"105,559.00",409.0,258.00
+801,09-May-14,Uoplyst,5690,Tommerup,Assens,420,Murersvende,,Axel Poulsen Holding ApS,,"165,260.00",575.0,287.00
+802,09-May-14,Uoplyst,5792,Årslev,Faaborg-Midtfyn,430,Murersvende,,Daugaard Byg A/S,,"182,527.00",478.0,382.00
+803,12-May-14,Campusvej,5220,Odense Sø,Odense,461,Tagpap,,Phønix,,"13,060.00",44.0,297.00
+804,12-May-14,Uoplyst,5690,Tommerup,Assens,420,Murersvende,,Axel Poulsen Holding ApS,,"160,463.00",575.0,279.00
+805,13-May-14,Fruens Bøge 1,5250,Odense Sv,Odense,461,Murersvende,,Murerfirmaet Nordfyn A/S,,"33,823.00",131.0,258.00
+806,15-May-14,Øsretmarken,9600,Aars,Vesthimmerland,820,Murersvende,,Hornum Murer og Entreprenørforretning,,"30,498.00",143.0,214.00
+807,19-May-14,Vangen Blok 10 Opgang 1 - 4,9400,Nørresundby,Aalborg,851,Murersvende,,MT Højgaard a/s,,"317,339.00","1,284.0",247.00
+808,23-May-14,Nejstgårdsvej ,9850,Hirtshals,Hjørring,860,Murersvende,,KFS.,,"23,026.00",79.0,291.00
+809,28-May-14,Hulvejen 167 B,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"27,595.00",97.0,284.00
+810,28-May-14,Ølsvej 9.,9500,Hobro,Mariagerfjord,846,Murersvende,,KFS Boligbyg A/S,,"34,875.00",126.0,277.00
+811,28-May-14,Kronhjortevej 6,8270,Højbjerg,Århus,751,Murersvende,,KFS Boligbyg A/S,,"45,697.00",228.0,200.00
+812,29-May-14,Uoplyst,8600,Silkeborg,Silkeborg,740,DE- Bygge/anlægsarbejde,,Aarsleff,,"510,955.00","2,278.0",224.00
+814,03-Jun-14,Viggo Juels Vej,9210,Aalborg Sø,Aalborg,851,Murersvende,,Vodskov murer og entreprenørforretning,,"327,185.00",839.0,390.00
+815,10-Jun-14,Uoplyst,5200,Odense V,Odense,461,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & Søn,,"251,385.00",918.0,274.00
+816,11-Jun-14,Uoplyst,9800,Hjørring,Hjørring,860,DE- Bygge/anlægsarbejde,,Vennelyst,,"46,186.00",270.0,171.00
+817,11-Jun-14,Uoplyst,5220,Odense Sø,Odense,461,Murersvende,,Axel Poulsen Holding ApS,,"103,877.00",452.0,230.00
+818,11-Jun-14,Hjallesevej 100,5260,Odense S,Odense,461,Tagpap,,Phønix,,"89,156.00",440.0,203.00
+819,12-Jun-14,Industrivej 5,9500,Hobro,Viborg,791,Tagpap,,Rationel Tagdækning A/S,,"45,882.00",222.0,207.00
+820,12-Jun-14,Tøndervej 8,6230,Rødekro,Aabenraa,580,BYG- Bygge/anlægsarbejde,,Brdr.Meyenburgs byggeforetning,,"37,572.00",131.0,287.00
+821,12-Jun-14,Uoplyst,5220,Odense Sø,Odense,461,Murersvende,,Axel Poulsen Holding ApS,,"254,948.00",968.0,264.00
+822,12-Jun-14,Uoplyst,7400,Herning,Herning,657,Tagpap,,Phønix Tag Vejle A/S,,"8,272.00",30.0,276.00
+823,12-Jun-14,Orla Lermannsvej,6400,Sønderborg,Sønderborg,540,Tagpap,,Syddansk Tagdækning,,"24,000.00",100.0,240.00
+824,12-Jun-14,Haervej 20,6372,Bylderup-Bov,Aabenraa,580,Tagpap,,Phønix A/S,,"2,980.00",16.0,186.00
+825,12-Jun-14,Solbakken,6500,Vojens,Haderslev,510,Tagpap,,Phønix A/S,,"15,144.00",70.0,216.00
+826,12-Jun-14,Lysvang 18,6400,Sønderborg,Sønderborg,540,Tagpap,,Phønix A/S,,"5,492.00",31.0,177.00
+827,12-Jun-14,Hvedemarken 35,6230,Rødekro,Aabenraa,580,Tagpap,,Phønix A/S,,"1,391.00",7.0,199.00
+828,12-Jun-14,Uoplyst,7400,Herning,Herning,657,Tagpap,,Phønix A/S,,"9,335.00",37.0,252.00
+829,12-Jun-14,Grundtvigsparken,6400,Sønderborg,Sønderborg,540,BYG- Bygge/anlægsarbejde,,Håndværkerne A/S,,"105,960.00",652.0,163.00
+830,12-Jun-14,Willy Sørensenplads 7,7100,vejle,Vejle,630,Tagpap,,Hetrag Tagdækning Nord,,"100,692.00",432.0,233.00
+831,12-Jun-14,Orla Lermannsvej,6400,Sønderborg,Sønderborg,540,Tagpap,,Syddansk Tagdækning,,"21,585.00",88.0,245.00
+833,12-Jun-14,Vollerup,6400,Sønderborg,Sønderborg,540,Tagpap,,Syddansk Tagdækning,,"208,001.00",735.0,283.00
+835,13-Jun-14,Svarregårdsvej 2,7430,Ikast,Ikast-Brande,756,Murersvende,,Skibbild Enterpriser.,,"291,158.00","1,478.0",197.00
+837,16-Jun-14,Højdevang 6,2970,Hørsholm,Hørsholm,223,DE- Bygge/anlægsarbejde,,Lind & Risør,,"95,684.00",423.0,226.00
+838,16-Jun-14,Statenevej 17,3450,Allerød,Allerød,201,DE- Bygge/anlægsarbejde,,Lind & Risør,,"74,770.00",270.0,277.00
+839,16-Jun-14,Statenevej 7,3450,Allerød,Allerød,201,DE- Bygge/anlægsarbejde,,Lind & Risør,,"82,256.00",254.0,324.00
+840,16-Jun-14,Linde Alle 12,3450,Allerød,Allerød,201,DE- Bygge/anlægsarbejde,,Lind & Risør,,"76,825.00",328.0,234.00
+841,04-Jul-14,Brendstrupgårdsvej 100,8200,Aarhus N,Århus,751,DE- Bygge/anlægsarbejde,,Nisgaard og Christoffersen,,"1,369,494.00","3,788.0",362.00
+842,07-Jul-14,Kragsbjergvej,5000,Odense c,Odense,461,Murersvende,,Hans Jørgensen & Søn A/S,,"196,115.00",790.0,248.00
+843,07-Jul-14,Kragsbjergvej,5000,Odense c,Odense,461,Murersvende,,Hans Jørgensen & Søn A/S,,"167,010.00",638.0,262.00
+844,07-Jul-14,Minervavej 42,6960,Hvide Sande,Ringkøbing-Skjern,760,Murersvende,,Murerfirmaet Bjarne Ørts & Co. A/S,,"37,397.00",126.0,297.00
+845,07-Jul-14,Melfar Parken 2,5500,Middelfart,Middelfart,410,Murersvende,,axel poulsen,,"68,182.00",232.0,294.00
+846,08-Jul-14,Nørrevænget 16,6933,Kibæk,Ringkøbing-Skjern,760,Murersvende,,LM-huse a/s,,"95,500.00",375.0,255.00
+847,08-Jul-14,Lødekæret 18,5450,Otterup,Nordfyns,480,Murersvende,,Murerfirmaet Nordfyn A/S,,"28,444.00",112.0,254.00
+848,08-Jul-14,Kabbeltoft 25,7100,Vejle,Vejle,630,Tagpap,,Phønix Tag Vejle,,"39,000.00",160.0,244.00
+849,08-Jul-14,Strandvejen,5800,Nyborg,Nyborg,450,Murersvende,,Mørk & Skov ApS,,"91,192.00",307.0,297.00
+850,11-Jul-14,Humlehaven,5792,Årslev,Faaborg-Midtfyn,430,Murersvende,,Axel Poulsen Holding ApS,,"194,994.00",806.0,242.00
+851,11-Jul-14,Tøndervej 90,6200,Aabenraa,Aabenraa,580,Tagpap,,Phønix A/S,,"40,029.00",150.0,267.00
+852,11-Jul-14,Tøndervej 90,6200,Aabenraa,Aabenraa,580,Tagpap,,Phønix A/S,,"48,260.00",181.0,267.00
+853,11-Jul-14,Grejsdalen 15,5800,Nyborg,Nyborg,450,Murersvende,,Jorton A/S,,"130,483.00",578.0,226.00
+854,14-Jul-14,Suensonsvej,9900,Frederikshavn,Frederikshavn,813,DE- Bygge/anlægsarbejde,,Trigon,,"448,795.00","2,252.0",199.00
+855,14-Jul-14,Peter Wesselsvej,9900,Frederikshavn,Frederikshavn,813,DE- Bygge/anlægsarbejde,,Trigon,,"466,112.00","1,886.0",247.00
+856,14-Jul-14,Oliepieren 7,9900,Frederikshavn,Frederikshavn,813,DE- Bygge/anlægsarbejde,,A. Enggaard,,"114,956.00",496.0,232.00
+857,14-Jul-14,Oliepieren 7,9900,Frederikshavn,Frederikshavn,813,DE- Bygge/anlægsarbejde,,A. Enggaard,,"561,471.00","2,347.0",239.00
+858,14-Jul-14,Sæby Sæbygaardvej 31,9300,Sæby,Frederikshavn,813,DE- Bygge/anlægsarbejde,,HP Byg,,"609,215.00","2,480.0",246.00
+859,14-Jul-14,Godsbaneparken,9000,Aalborg,Aalborg,851,DE- Bygge/anlægsarbejde,,NCC,,"1,148,391.00","4,680.0",245.00
+860,14-Jul-14,Rimmens Allé 75,9900,Frederikshavn,Frederikshavn,813,DE- Bygge/anlægsarbejde,,MT Højgaard A/S,,"2,012,193.00","8,932.0",225.00
+861,17-Jul-14,Dokhavnsvej 15,4400,Kalundborg,Kalundborg,326,Murersvende,,EBC Murerfirma,,"32,359.00",155.0,209.00
+862,17-Jul-14,Grønningen,4200,Slagelse,Slagelse,330,Murersvende,,Morten Friis A/S,,"800,014.00","3,004.0",266.00
+863,17-Jul-14,Grønningen,4200,Slagelse,Slagelse,330,Murerarbejdsmænd,,Morten Friis A/S,,"266,586.00","1,001.0",266.00
+864,17-Jul-14,Grønningen,4200,Slagelse,Slagelse,330,DE- Bygge/anlægsarbejde,,CG Jensen,,"5,031,656.00","22,513.0",224.00
+865,17-Jul-14,Grønningen,4200,Slagelse,Slagelse,330,DE- Bygge/anlægsarbejde,,CG Jensen,,"359,100.00","1,596.0",225.00
+866,17-Jul-14,Vesterlundvej 3,2730,Herlev,Herlev,163,Tagpap,,Rationel Tagdækning A/S,,"59,346.00",290.0,205.00
+867,21-Jul-14,Grønningen,4200,Slagelse,Slagelse,330,DE- Bygge/anlægsarbejde,,CG Jensen,,"4,960,806.00","22,196.0",224.00
+868,21-Jul-14,Kongebakken 40,4000,Roskilde,Roskilde,265,Tømrerarbejde,,Hovedstadens Ent.,,"208,778.00",751.0,278.00
+869,21-Jul-14,Ahornlunden 17,4000,Roskilde,Roskilde,265,Tømrerarbejde,,Wibskov og Rasmussen,,"260,000.00",650.0,400.00
+870,24-Jul-14,Grønningen,4200,Slagelse,Slagelse,330,DE- Bygge/anlægsarbejde,,CG Jensen,,"134,775.00","1,596.0",84.00
+871,25-Jul-14,Statenevej 25,3450,Allerød,Allerød,201,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"51,704.00",246.0,210.00
+872,25-Jul-14,Hakonsvej 9,2880,Bagsværd,Gladsaxe,159,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"55,124.00",177.0,311.00
+873,25-Jul-14,Solvænget 21,2791,Dragør,Dragør,155,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"43,736.00",164.0,267.00
+874,25-Jul-14,Victoriavej 7,3450,Allerød,Allerød,201,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"51,873.00",190.0,273.00
+875,25-Jul-14,Tranehusvej 25,2770,Kastrup,Tårnby,185,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"46,356.00",164.0,283.00
+876,25-Jul-14,Statenevej 23,3450,Allerød,Allerød,201,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"46,864.00",196.0,239.00
+877,25-Jul-14,Leddet 13,4300,Holbæk,Holbæk,316,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"53,172.00",212.0,251.00
+878,25-Jul-14,Kildevej 26,4130,Viby Sjælland,Roskilde,265,BYG- Bygge/anlægsarbejde,,Lind & Risør,,"42,951.00",148.0,290.00
+879,25-Jul-14,Agergårdshaven 1,2690,Karlslunde,Greve,253,DE- Bygge/anlægsarbejde,,Lind & Risør,,"116,624.00",592.0,197.00
+880,25-Jul-14,Agergårdshaven 11,2690,Karlslunde,Greve,253,DE- Bygge/anlægsarbejde,,Lind & Risør,,"145,780.00",740.0,197.00
+881,25-Jul-14,Grønningen,4200,Slagelse,Slagelse,330,DE- Bygge/anlægsarbejde,,CG Jensen,,"134,775.00",599.0,225.00
+882,30-Jul-14,Warmingsgade 1,6000,Kolding,Kolding,621,Tagpap,,Rationel tag,,"64,684.00",256.0,253.00
+883,30-Jul-14,Gammel Køge Landevej 22,2500,Valby,København,101,Murerarbejdsmænd,,Rene Godthåb,,"542,469.00","2,170.0",250.00
+884,04-Aug-14,Vangen 1,9400,Nørresundby,Aalborg,851,Murersvende,,MT Højgaard a/s,,"285,058.00","1,084.0",263.00
+885,05-Aug-14,Fredensvej 60,1306,København K,København,101,Murersvende,,HHM Holding A/S,,"480,913.00","1,503.0",320.00
+886,05-Aug-14,Fredensvej 60,1306,København K,København,101,Murerarbejdsmænd,,,,"229,360.00",717.0,320.00
+887,07-Aug-14,"Sommervej 31, 8210 Aarhus V",8210,Aarhus V,Århus,751,DE- Bygge/anlægsarbejde,,NCC,,"801,420.00","4,218.0",190.00
+888,08-Aug-14,Hjarupvej 10,6000,Kolding,Kolding,621,Tagpap,,Phønix Tag Vejle,,"13,102.00",48.0,273.00
+889,08-Aug-14,Hjarupvej 10,6000,Kolding,Kolding,621,Tagpap,,Phønix Tag Vejle,,"13,102.00",48.0,273.00
+890,08-Aug-14,Hjarupvej 10,6000,Kolding,Kolding,621,Tagpap,,Phønix Tag Vejle,,"9,522.00",34.0,280.00
+891,08-Aug-14,Hjarupvej 10,6000,Kolding,Kolding,621,Tagpap,,Phønix Tag Vejle,,"13,255.00",48.0,276.00
+892,08-Aug-14,Agergårdshaven 3,2690,Karlslunde,Greve,253,Murerarbejdsmænd,,Lind & Risør,,"40,232.00",162.0,248.00
+893,08-Aug-14,Hjarupvej 10,6000,Kolding,Kolding,621,Tagpap,,Phønix Tag Vejle,,"33,242.00",122.0,272.00
+894,11-Aug-14,Skejby,8200,Aarhus N,Århus,751,DE- Bygge/anlægsarbejde,,Jorton,,"2,865,238.00","12,193.0",235.00
+895,11-Aug-14,Løget Høj,7100,Vejle,Vejle,630,Murersvende,,,,"905,943.00","3,354.0",270.00
+896,13-Aug-14,Mosevangen 1,9230,Svenstrup J,Aalborg,851,Tagpap,,Phønix Tag Nordjylland A/S,,"30,706.00",178.0,173.00
+897,13-Aug-14,Mozartsvej 5,7500,Holstebro,Holstebro,661,Murersvende,,Murerfirmaet Bjarne Ørts & Co. A/S,,"95,210.00",263.0,362.00
+898,14-Aug-14,Tolstrupvej 12 Uggerby,9800,Hjørring,Hjørring,860,Murersvende,,Vendia-Huset A/S,,"165,589.00",727.0,228.00
+899,14-Aug-14,Nibevej 151,9200,Aalborg Sv,Aalborg,851,Murersvende,,Henriksen & Madsen A/S,,"12,404.00",64.0,194.00
+900,15-Aug-14,Søholmvej,9830,Tårs,Hjørring,860,DE- Bygge/anlægsarbejde,,Vennelyst Ingeniør & Entreprenørforretning,,"79,279.00",368.0,215.00
+901,18-Aug-14,Enebærvej 12,8240,Risskov,Århus,751,Murersvende,,KFS Boligbyg A/S,,"19,395.00",58.0,332.00
+902,18-Aug-14,Kassandravej 38 ,9210,Aalborg Sø,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"55,965.00",242.0,231.00
+903,18-Aug-14,Ledvogtervej 184,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"52,174.00",178.0,293.00
+904,18-Aug-14,Katholmvej,8930,Randers,Randers,730,Murersvende,,Fruensgaard Byg,,"59,988.00",287.0,209.00
+905,18-Aug-14,Enebærvej 12,8240,Risskov,Århus,751,Murersvende,,KFS Boligbyg A/S,,"19,395.00",58.0,332.00
+906,18-Aug-14,Katholmvej,8930,Randers,Randers,730,Murersvende,,Fruensgaard Byg,,"59,988.00",287.0,209.00
+907,19-Aug-14,Bornholmsgade- Fanøgade,9000,Aalborg,Aalborg,851,Murersvende,,Hans Nielsen & Søn,,"859,960.00","4,261.0",202.00
+908,20-Aug-14,Storebæltsvej 13,5800,Nyborg,Nyborg,450,Tagpap,,phønix,,"18,305.00",81.0,227.00
+909,20-Aug-14,Storebæltsvej 13,5800,Nyborg,Nyborg,450,Tagpap,,Phønix,,"13,288.00",42.0,320.00
+910,20-Aug-14,Storebæltsvej 13 ,5800,Nyborg,Nyborg,450,Tagpap,,Phønix,,"25,499.00",85.0,300.00
+911,21-Aug-14,Elmelundsvej ,5200,Odense V,Odense,461,Tagpap,,Phønix tag,,"50,548.00",199.0,254.00
+912,22-Aug-14,Jernbanegade,7000,Fredericia,Fredericia,607,DE- Bygge/anlægsarbejde,,Hansson&Knudsen,,"374,870.00","1,349.0",278.00
+913,25-Aug-14,Skovalleén,5550,Langeskov,Kerteminde,440,Murersvende,,Axel Poulsen Holding ApS,,"163,164.00",647.0,252.00
+914,25-Aug-14,Grejsdalen,5800,Nyborg,Nyborg,450,Murersvende,,Jorton A/S,,"147,145.00",656.0,224.00
+915,25-Aug-14,Campusvej 55 ,5230,Odense M,Odense,461,DE- Bygge/anlægsarbejde,,Hanson & Knudsen,,"1,544,966.00","7,087.0",218.00
+916,25-Aug-14,Krogsbølle Bygade 54,5450,Otterup,Nordfyns,480,Murersvende,,Murerfirmaet Nordfyn A/S,,"30,683.00",124.0,247.00
+917,25-Aug-14,Skaboeshusevej 110,5800,Nyborg,Nyborg,450,Murersvende,,Jorton A/S,,"286,732.00",879.0,326.00
+918,28-Aug-14,Trindballevej 20 ,8260,Viby J,Århus,751,Murersvende,,KFS Boligbyg A/S,,"124,804.00",400.0,312.00
+919,01-Sep-14,Vejlegårdsvej 65,2665,Vallensbæk,Vallensbæk,187,Tagpap,,Rationel Tagdækning A/S,,"7,870.00",35.0,225.00
+920,01-Sep-14,Finlandsvej 3,4970,Rødby,Lolland,360,Tagpap,,Rationel Tagdækning A/S,,"53,330.00",250.0,213.00
+921,01-Sep-14,Agergårdshaven 11,2690,Karlslunde,Greve,253,Murerarbejdsmænd,,Lind & Risør,,"40,632.00",160.0,254.00
+922,02-Sep-14,Bellinge,5250,Odense Sv,Odense,461,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & søn,,"271,060.00","1,237.0",219.00
+923,02-Sep-14,Bellinge,5250,Odense Sv,Odense,461,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & søn,,"381,421.00","1,406.0",271.00
+924,02-Sep-14,Brendstrupgårdsvej 100,8200,Aarhus N,Århus,751,DE- Bygge/anlægsarbejde,,Poul Pedersen,,"4,218,762.00","12,450.0",339.00
+926,04-Sep-14,Mariendalvej,8800,Viborg,Viborg,791,Tømrerarbejde,,Knudsgaard,,"121,242.00",243.0,500.00
+927,04-Sep-14,Mozartsvej 5,7500,Holstebro,Holstebro,661,Tømrerarbejde,,Bjarne toft,,"30,638.00",152.0,202.00
+928,04-Sep-14,Hc Lumbyesvej 26,7500,Holstebro,Holstebro,661,Tømrerarbejde,,JCC Tømrer & Snedker,,"37,890.00",183.0,207.00
+929,05-Sep-14,Rødkildevej 42,7100,Vejle,Vejle,630,Tagpap,,Rationel Tagdækning A/S,,"52,571.00",256.0,205.00
+930,05-Sep-14,Kærhavebakken 58,9270,Klarup,Aalborg,851,Murersvende,,Vendia-Huset A/S,,"60,353.00",229.0,264.00
+931,06-Sep-14,Frederiksvej 51 ,2000,Frederiksberg,Frederiksberg,147,BYG- Bygge/anlægsarbejde,,Brdr Thybo,,"1,282,500.00","4,500.0",285.00
+932,08-Sep-14,Trindballevej 20 Ormslev,8260,Viby J,Århus,751,Murersvende,,KFS Boligbyg A/S,,"20,983.00",73.0,287.00
+933,08-Sep-14,Søndermarken,5210,Odense NV,Odense,461,Murersvende,,Hansson & Knudsen A/S,,"205,631.00",770.0,267.00
+934,08-Sep-14,Bakkedraget 4,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"37,577.00",121.0,311.00
+935,08-Sep-14,Dokhavnsvej 15,4400,Kalundborg,Kalundborg,326,Murersvende,,EBC Murerfirma,,"39,372.00",157.0,251.00
+936,08-Sep-14,Dokhavnsvej 15,4400,Kalundborg,Kalundborg,326,Murerarbejdsmænd,,EBC Murerfirma,,"21,065.00",84.0,251.00
+937,08-Sep-14,Dokhavnsvej 15,4400,Kalundborg,Kalundborg,326,Murersvende,,EBC Murerfirma,,"82,742.00",326.0,254.00
+938,08-Sep-14,Kimbrerbakken,5250,Odense Sv,Odense,461,Murersvende,,Hans Jørgensen & Søn A/S,,"53,321.00",212.0,252.00
+939,08-Sep-14,Dokhavnsvej 15,4400,Kalundborg,Kalundborg,326,Murerarbejdsmænd,,EBC Murerfirma,,"41,180.00",162.0,254.00
+940,08-Sep-14,Kimbrerbakken,5250,Odense Sv,Odense,461,Murersvende,,Hans Jørgensen & Søn A/S,,"30,759.00",92.0,334.00
+941,10-Sep-14,Lægårdsvej,7500,Holstebro,Holstebro,661,Murersvende,,Jens Jensen,,"15,334.00",62.0,247.00
+942,10-Sep-14,Viggo Juelsvej,9210,Aalborg Sø,Aalborg,851,Murersvende,,Vodskov murer og entreprenørforretning,,"175,679.00",769.0,229.00
+943,10-Sep-14,Østerbro 69,9000,Aalborg,Aalborg,851,Murersvende,,Lund & Staun A/S,,"46,059.00",205.0,225.00
+944,11-Sep-14,Grævlingen,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"36,661.00",126.0,291.00
+945,11-Sep-14,Løgten Østervej 34,8541,Skødstrup,Århus,751,Murersvende,,KFS Boligbyg A/S,,"23,285.00",92.0,253.00
+946,11-Sep-14,Bakkedraget 4-6-8,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"107,110.00",326.0,329.00
+947,11-Sep-14,Borupvej 26,9240,Nibe,Vesthimmerland,820,Murersvende,,Nco Byg A/S,,"73,627.00",272.0,271.00
+948,11-Sep-14,Østerbro 69,9000,Aalborg,Aalborg,851,Murersvende,,Lund & Staun A/S,,"46,059.00",205.0,225.00
+949,11-Sep-14,Industrivænget,5700,Svendborg,Svendborg,479,BYG- Bygge/anlægsarbejde,,Morten Friis,,"46,500.00",210.0,221.00
+950,15-Sep-14,Kærvej 503,7190,Billund,Billund,530,Murersvende,,Jorton,,"531,438.00","1,916.0",277.00
+951,15-Sep-14,Århus Havn,8000,Aarhus,Århus,751,DE- Bygge/anlægsarbejde,,Jorton,,"662,175.00","3,038.0",218.00
+952,15-Sep-14,Hjallesevej ,5260,Odense s,Odense,461,Tagpap,,Phønix,,"12,070.00",61.0,198.00
+953,16-Sep-14,Skovalleén,5550,Langeskov,Kerteminde,440,Murersvende,,Axel Poulsen Holding ApS,,"251,906.00",889.0,283.00
+954,16-Sep-14,Møllehusvej 22B,9380,Vestbjerg,Aalborg,851,Murersvende,,Vendia-Huset A/S,,"55,136.00",196.0,281.00
+955,17-Sep-14,Ahornlunden,4000,Roskilde,Roskilde,265,Murersvende,,Henriksen og Madsen A/S,,"675,000.00","3,000.0",225.00
+956,17-Sep-14,Ahornlunden,4000,Roskilde,Roskilde,265,Murerarbejdsmænd,,Henriksen og Madsen A/S,,"225,000.00","1,000.0",225.00
+957,18-Sep-14,Møllemarksvej,5200,Odense V,Odense,461,Murersvende,,Jorton A/S,,"43,122.00",168.0,257.00
+958,19-Sep-14,Melfar Parken 2,5500,Middelfart,Middelfart,410,Murersvende,,Axel Poulsen Holding ApS,,"74,122.00",262.0,283.00
+959,23-Sep-14,Damsbovej 11,5492,Vissenbjerg,Assens,420,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & Søn A/S,,"52,249.00",190.0,275.00
+960,23-Sep-14,Damsbovej 11,5492,Vissenbjerg,Assens,420,BYG- Bygge/anlægsarbejde,,Hans Jørgensen & Søn,,"180,500.00",820.0,220.00
+961,24-Sep-14,Kassandravej 8 Gug,9210,Aalborg Sø,Aalborg,851,Murersvende,,Vendia-Huset A/S,,"77,415.00",202.0,383.00
+962,26-Sep-14,Paghs Alle 18,6705,Esbjerg Ø,Esbjerg,561,DE- Bygge/anlægsarbejde,,Chr. Brinck & Søn ApS,,"69,495.00",388.0,179.00
+963,26-Sep-14,Amerikavej 7,6700,Esbjerg,Esbjerg,561,Tagpap,,Phønix Tag Esbjerg A/S,,"69,809.00",347.0,201.00
+964,26-Sep-14,Grærup Havvej 2,6840,Oksbøl,Varde,573,Tagpap,,Max Mathiesen & sønner A/S,,"39,105.00",178.0,220.00
+965,26-Sep-14,Endelavevej 12,8700,Horsens,Horsens,615,BYG- Bygge/anlægsarbejde,,Erik Møberg A/S,,"119,282.00",545.0,219.00
+967,26-Sep-14,Kærvej 503,7190,Billund,Billund,530,Tagpap,,Rationel Tagdækning A/S,,"54,785.00",276.0,198.00
+968,26-Sep-14,Granvej,7190,Billund,Billund,530,Tagpap,,Max Mathiesen & sønner A/S,,"22,753.00",97.0,235.00
+969,26-Sep-14,Solvænget 27,6870,Ølgod,Varde,573,Tagpap,,Rationel Tagdækning A/S,,"12,816.00",63.0,205.00
+970,26-Sep-14,Hoveddgaden 75,6720,Fanø,Fanø,563,DE- Bygge/anlægsarbejde,,Jorton A/S,,"394,574.00","1,754.0",225.00
+971,26-Sep-14,Blåbærvej 2,7200,Grindsted,Billund,530,Tagpap,,Icopal A/S Kolding,,"8,233.00",42.0,196.00
+972,26-Sep-14,Vestkraftgade 46,6700,Esbjerg,Esbjerg,561,BYG- Bygge/anlægsarbejde,,Hansson & Knudsen A/S,,"437,596.00","2,198.0",199.00
+978,30-Sep-14,Tvedevej 110,7000,Fredericia,Fredericia,607,Brolægning,,Arkil A/S,,"6,339.00",16.0,396.00
+979,01-Oct-14,Mosevråvej 115,7000,Fredericia,Fredericia,607,Murersvende,,jorton,,"349,317.00","1,390.0",251.00
+981,01-Oct-14,Annalyst,7430,Ikast,Ikast-Brande,756,Murersvende,,axel Poulsen,,"102,202.00",403.0,254.00
+986,02-Oct-14,Sofieholm 13,9270,Klarup,Aalborg,851,Murersvende,,,,"48,387.00",162.0,299.00
+987,02-Oct-14,Maltvej 1,6600,Vejen,Vejen,575,Murersvende,,,,"30,569.00",126.0,243.00
+988,06-Oct-14,Industrivej,9830,Tårs,Hjørring,860,Murersvende,,Murerfirmaet Bjarne Ørts & Co. A/S,,"25,263.00",110.0,231.00
+989,06-Oct-14,Vangen ,9400,Nørresundby,Aalborg,851,Murersvende,,Thyholm Murer,,"94,803.00",340.0,279.00
+990,07-Oct-14,Torpvej,5260,Odense,Odense,461,Murersvende,,Skibbild Enterpriser.,,"61,662.00",246.0,251.00
+991,13-Oct-14,Søndermarksvej ,7000,Fredericia,Fredericia,607,Murersvende,,Murerfirmaet Bjarne Ørts & Co. A/S,,"14,060.00",60.0,234.00
+992,14-Oct-14,Ådalen 287,9700,Brønderslev,Brønderslev,810,Murersvende,,Murerfirmaet Bjarne Ørts & Co. A/S,,"14,060.00",60.0,234.00
+993,14-Oct-14,Stormgade,6700,Esbjerg,Esbjerg,561,Murersvende,,Skibbild Enterpriser.,,"224,133.00",926.0,242.00
+994,15-Oct-14,Kassandravej 38,9210,Aalborg Sø,Aalborg,851,Murersvende,,Jens Jensen,,"266,705.00","1,027.0",260.00
+995,15-Oct-14,Ledvogtervej 184,9530,Støvring,Rebild,840,Murersvende,,Jens Jensen,,"100,158.00",464.0,216.00
+996,15-Oct-14,Skovbakkevej 19,9000,Aalborg,Aalborg,851,Murersvende,,,,"22,327.00",112.0,199.00
+997,15-Oct-14,Finlandsvej 3,4970,Rødby,Lolland,360,Murersvende,,Skibbild Enterpriser.,,"52,597.00",227.0,232.00
+998,15-Oct-14,Stormgade,6700,Esbjerg,Esbjerg,561,Murersvende,,,,"67,150.00",313.0,215.00
+999,15-Oct-14,Kløvervænget,6100,Haderslev,Haderslev,510,Murersvende,,,,"97,518.00",423.0,231.00
+1000,17-Oct-14,Palle Juul-Jensens Boulevard 99,8200,Aarhus N,Århus,751,Murersvende,,Camborg Byg,,"60,264.00",288.0,209.00
+1001,20-Oct-14,Vesterdamsvænget 92,7400,Herning,Herning,657,Murersvende,,,,"8,464.00",42.0,202.00
+1002,20-Oct-14,Griegsvej,9200,Aalborg Sv,Aalborg,851,Murersvende,,,,"36,469.00",175.0,209.00
+1003,20-Oct-14,Rødkildevej 42,7100,Vejle,Hedensted,766,Murersvende,,Hørup Murerforretnming,,"368,970.00","1,638.0",225.00
+1004,20-Oct-14,Æblegrenen,5220,Odense Sø,Odense,461,Murersvende,,Hørup Murerforretnming,,"368,970.00","1,638.0",225.00
+1007,24-Oct-14,Tagskæget 29,9380,Vestbjerg,Aalborg,851,Murersvende,,,,"83,071.00",500.0,166.00
+1008,24-Oct-14,Gyldenlunden 1,5550,Langeskov,Kerteminde,440,Murersvende,,Bo Michelsen A/S,,48.00,0.0,240.00
+1009,24-Oct-14,Nellerudsgyden 9,5471,Søndersø,Nordfyns,480,Murersvende,,Hørup Murerforretning,,"283,339.00","1,000.0",283.00
+1010,27-Oct-14,Bergmannsvej 25,5700,Svendborg,Svendborg,479,Murersvende,,S.I.B Sønderborg,,"376,492.00","1,435.0",262.00
+1011,27-Oct-14,Bergmannsvej 25,5700,Svendborg,Svendborg,479,Murersvende,,Håndværkerne A/S,,"94,539.00",214.0,442.00
+1012,27-Oct-14,Kirkevej 26,5690,Tommerup,Assens,420,Murersvende,,Håndværkerne A/S,,"94,539.00",214.0,442.00
+1013,27-Oct-14,Wichmannsgade,5000,Odense C,Odense,461,Murersvende,,Søgård Byg A/S,,"22,978.00",75.0,306.00
+1014,27-Oct-14,Frederiks Ø,5700,Svendborg,Svendborg,479,Murersvende,,Søgård Byg A/S,,"13,354.00",64.0,209.00
+1015,28-Oct-14,Dronninggårds Alle 114,2840,Holte,Rudersdal,230,Murersvende,,Fynsk & Søn A/S,,"37,234.00",175.0,213.00
+1016,28-Oct-14,Dronninggårds Alle 114,2840,Holte,Rudersdal,230,Murersvende,,Søgård Byg A/S,,"8,602.00",40.0,215.00
+1017,28-Oct-14,Grev Moltkevej 5,3450,Allerød,Allerød,201,Murersvende,,Eurodan-Huse,,"48,416.00",165.0,293.00
+1018,28-Oct-14,Ørnestens Vænge 66,3600,Frederikssund,Frederikssund,250,Murersvende,,SCAN - Byg,,"79,464.00",356.0,223.00
+1019,28-Oct-14,Grev Moltkevej 5,3450,Allerød,Allerød,201,Murersvende,,SCAN - Byg,,"24,418.00",85.0,287.00
+1020,28-Oct-14,Ørnestens Vænge 66,3600,Frederikssund,Frederikssund,250,Murersvende,,Johan C. Nielsen A/S,,"69,722.00",454.0,154.00
+1021,28-Oct-14,Melfarparken,5500,Middelfart,Middelfart,410,Murersvende,,S.I.B Sønderborg,,"368,522.00","1,550.0",238.00
+1022,28-Oct-14,Kimbrerbakken 107,5250,Odense Sv,Odense,461,Murersvende,,Søgård Byg A/S,,"16,365.00",95.0,172.00
+1023,30-Oct-14,Danagården 155,9230,Svenstrup J,Aalborg,851,Murersvende,,Søgård Byg A/S,,"29,717.00",150.0,198.00
+1024,30-Oct-14,Krogsbølle Bygade 54,5450,Otterup,Nordfyns,480,Murersvende,,Fynsk & Søn A/S,,"19,847.00",74.0,268.00
+1025,03-Nov-14,Grøntoften 1,5550,Langeskov,Kerteminde,440,Murersvende,,T F Byggeforretning,,"186,421.00",837.0,223.00
+1026,04-Nov-14,Wichmannsgade,5000,Odense C,Odense,461,Murersvende,,Søgård Byg A/S,,"5,439.00",20.0,272.00
+1027,04-Nov-14,Nørrevangen 1,5260,Odense S,Odense,461,Murersvende,,Rudebeck A/S,,"6,243.00",22.0,284.00
+1028,04-Nov-14,Kirkevej 26,5690,Tommerup,Assens,420,Murersvende,,Jorton,,"19,797.00",108.0,183.00
+1029,06-Nov-14,Fensmarkvej,4700,Næstved,Næstved,370,Murersvende,,Cmo Byg,,"4,904.00",25.0,196.00
+1030,07-Nov-14,Fensmarkvej,4700,Næstved,Næstved,370,Murersvende,,Jorton,,"65,124.00",300.0,217.00
+1031,07-Nov-14,Nordmarksvej 6,5471,Søndersø,Nordfyns,480,Murersvende,,,,"101,058.00",253.0,399.00
+1032,10-Nov-14,Grønningen,4200,Slagelse,Slagelse,330,Murersvende,,EMR,,"538,808.00","2,093.0",257.00
+1033,10-Nov-14,Ceresgrunden,8000,Aarhus C,Århus,751,Murersvende,,EMR,,"538,808.00","2,093.0",257.00
+1034,12-Nov-14,Søndermarken 2,5210,Odense NV,Odense,461,Murersvende,,Axel Poulsen & sønner a/s,,"148,760.00",468.0,318.00
+1035,13-Nov-14,Møllemarsvej 50,5700,Svendborg,Svendborg,479,Murersvende,,P.Jensen & sønner,,"24,243.00",121.0,200.00
+1036,13-Nov-14,Cimberparken,5250,Odense,Odense,461,Murersvende,,P. jensen og søn,,"24,155.00",122.0,198.00
+1037,13-Nov-14,Grævlingen 36,9530,Støvring,Rebild,840,Murersvende,,Børge Larsen,,"421,630.00","2,000.0",211.00
+1038,13-Nov-14,Danagården 155,9230,Svenstrup J,Aalborg,851,Murersvende,,,,"48,203.00",231.0,209.00
+1039,17-Nov-14,Ørbækvej 11,5700,Svendborg,Svendborg,479,Murersvende,,Børge Larsen,,912.00,4.0,228.00
+1040,19-Nov-14,Orla Lehmans Vej,6400,Sønderborg,Sønderborg,540,Murersvende,,bo michelsen,,"47,736.00",300.0,159.00
+1041,19-Nov-14,Orla Lehmans Vej,6400,Sønderborg,Sønderborg,540,Murersvende,,bo michelsen,,"47,736.00",300.0,159.00
+1042,19-Nov-14,Orla Lehmans Vej,6400,Sønderborg,Sønderborg,540,Murersvende,,P. jensen og søn,,"24,601.00",100.0,246.00
+1043,19-Nov-14,Orla Lehmans Vej,6400,Sønderborg,Sønderborg,540,Murersvende,,LM-huse a/s,,"3,323.00",15.0,222.00
+1044,19-Nov-14,Orla Lehmans Vej,6400,Sønderborg,Sønderborg,540,Murersvende,,Beck & Nielsen aps,,"49,478.00",290.0,171.00
+1045,19-Nov-14,Warmingsgade 1,6000,Kolding,Kolding,621,Murersvende,,Børge Larsen,,"119,821.00",498.0,241.00
+1046,19-Nov-14,Vindingevej 36,5800,Nyborg,Nyborg,450,Murersvende,,K.G.Hansen,,"34,463.00",145.0,238.00
+1047,19-Nov-14,Kimbrerbakken 107,5250,Odense SV,Odense,461,Murersvende,,Cmo Byg,,"23,138.00",100.0,231.00
+1048,19-Nov-14,Vestergade 17,7570,Vemb,Lemvig,665,Murersvende,,,,"44,295.00",200.0,221.00
+1049,19-Nov-14,Nybo Bakke,7500,Holstebro,Holstebro,661,Murersvende,,Jorton,,"17,438.00",85.0,205.00
+1050,19-Nov-14,Kløvermarken 24,7400,Herning,Herning,657,Murersvende,,Jorton,,"4,011.00",19.0,211.00
+1051,20-Nov-14,Vestre Ringvej 7,8850,Bjerringbro,Viborg,791,Murersvende,,Cmo Byg,,"189,912.00","1,000.0",190.00
+1052,20-Nov-14,Vestre Ringvej 7,8850,Bjerringbro,Viborg,791,Murersvende,,Vendia-Huset A/S,,"54,130.00",219.0,247.00
+1053,21-Nov-14,Skovbyvej 20,6400,Sønderborg,Sønderborg,540,Murersvende,,MT Højgaard a/s,,"407,032.00","1,594.0",255.00
+1054,21-Nov-14,Skovbyvej 20,6400,Sønderborg,Sønderborg,540,Murersvende,,Børge Juul Kristensen,,"121,304.00",542.0,224.00
+1055,21-Nov-14,Skovbyvej 20,6400,Sønderborg,Sønderborg,540,Murersvende,,Børge Juul Kristensen,,"146,400.00",847.0,173.00
+1056,21-Nov-14,Ukendt,6400,Sønderborg,Sønderborg,540,Murersvende,,Vendia-Huset A/S,,"61,964.00",220.0,282.00
+1057,21-Nov-14,Stråbjergvej 1,6400,Sønderborg,Sønderborg,540,Murersvende,,Vendia-Huset A/S,,"73,875.00",312.0,237.00
+1058,21-Nov-14,Ukendt,6400,Sønderborg,Sønderborg,540,Murersvende,,Henriksen & Madsen A/S,,"23,855.00",50.0,477.00
+1059,21-Nov-14,Ukendt,6400,Sønderborg,Sønderborg,540,Murersvende,,Vendia-Huset A/S,,"61,964.00",220.0,282.00
+1060,21-Nov-14,Grundvigsparken 1,6400,Sønderborg,Sønderborg,540,Murersvende,,Vendia-Huset A/S,,"76,577.00",226.0,339.00
+1062,24-Nov-14,Kirkevej 26,5690,Tommerup,Assens,420,Murersvende,,Vendia-Huset A/S,,"62,600.00",252.0,248.00
+1063,24-Nov-14,Vollsmose,5220,Odense Sø,Odense,461,Murersvende,,Vendia-Huset A/S,,"57,232.00",290.0,197.00
+1064,24-Nov-14,Grønnevangen,6000,Kolding,Kolding,621,Murersvende,,Vendia-Huset A/S,,"61,845.00",226.0,274.00
+1065,24-Nov-14,Hanebjælken 175,9380,Vestbjerg,Aalborg,851,Murersvende,,Vendia-Huset A/S,,"57,993.00",290.0,200.00
+1066,24-Nov-14,Åkjærvej 26,9340,Asaa,Brønderslev,810,Tømrerarbejde,,,,"23,100.00",100.0,231.00
+1067,24-Nov-14,Grønnevangen,6000,Kolding,Kolding,621,DE- Bygge/anlægsarbejde,,Vennelyst,,"34,518.00",138.0,250.00
+1068,24-Nov-14,Ulkebøldam 6 A,6400,Sønderborg,Sønderborg,540,DE- Bygge/anlægsarbejde,,"M.Thomsen Støtt, Aalborg A/S",,"42,000.00",210.0,200.00
+1069,24-Nov-14,Ulkebøldam 6 A,6400,Sønderborg,Sønderborg,540,DE- Bygge/anlægsarbejde,,HP Byg,,"138,718.00",468.0,296.00
+1070,24-Nov-14,Midtkobbel 87,6340,Kruså,Aabenraa,580,Tagpap,,Phønix,,"4,801.00",17.0,291.00
+1071,24-Nov-14,Midtkobbel 87,6340,Kruså,Aabenraa,580,Tagpap,,Phønix,,"7,198.00",24.0,306.00
+1072,24-Nov-14,Ringade 42,6400,Sønderborg,Sønderborg,540,Tagpap,,Phønix,,"22,493.00",79.0,287.00
+1073,24-Nov-14,Rosinfeldt 140,6270,Tønder,Tønder,550,Tagpap,,Phønix,,"19,688.00",82.0,240.00
+1074,24-Nov-14,Bredsmose 18,6800,Varde,Varde,573,Tagpap,,Phønix,,"22,493.00",79.0,287.00
+1075,24-Nov-14,Søvej 12,7100,Vejle,Vejle,630,Tagpap,,Phønix,,"16,295.00",68.0,240.00
+1076,24-Nov-14,Søvej 12,7100,Vejle,Vejle,630,Tagpap,,Phønix,,"7,198.00",24.0,306.00
+1077,24-Nov-14,Langbro 7,6400,Sønderborg,Sønderborg,540,Tagpap,,Phønix,,"7,198.00",24.0,306.00
+1078,24-Nov-14,Grundvigsparken 2,6400,Sønderborg,Sønderborg,540,Tagpap,,Ryslinge tagdækning,,"173,505.00",860.0,202.00
+1079,24-Nov-14,Varnæshoved 5,6200,Aabenraa,Aabenraa,580,Tømrerarbejde,,Lunderskov Nybyg A/S,,"94,320.00",419.0,225.00
+1080,24-Nov-14,Varnæshoved 5,6200,Aabenraa,Aabenraa,580,Tømrerarbejde,,Lunderskov Nybyg A/S,,"565,920.00","2,517.0",225.00
+1081,24-Nov-14,Gl. Dam,6430,Nordborg,Sønderborg,540,BYG- Bygge/anlægsarbejde,,Morten Friis A/S,,"669,532.00","3,113.0",215.00
+1082,24-Nov-14,Ulekær,6200,Aabenraa,Aabenraa,580,DE- Bygge/anlægsarbejde,,Jorton A/S,,"324,442.00","1,071.0",303.00
+1083,24-Nov-14,Magrethegårdsvej,6200,Aabenraa,Aabenraa,580,DE- Bygge/anlægsarbejde,,EXPAN A/S,,"240,771.00","1,603.0",150.00
+1084,28-Nov-14,Kirkestrædet 1A,5550,Langeskov,Kerteminde,440,BYG- Bygge/anlægsarbejde,,Daugaard Byg A/S,,"47,633.00",226.0,211.00
+1085,28-Nov-14,Grønningen,4200,Slagelse,Slagelse,330,Tagpap,,Max Mathiesen & sønner A/S,,"47,219.00",255.0,185.00
+1086,28-Nov-14,Grønningen,4200,Slagelse,Slagelse,330,Tagpap,,Esbjerg Tag DK A/S,,"263,221.00","1,415.0",186.00
+1087,28-Nov-14,Grønningen,4200,Slagelse,Slagelse,330,Tagpap,,Phønix Tag Esbjerg A/S,,"21,186.00",120.0,177.00
+1088,28-Nov-14,Grønningen,4200,Slagelse,Slagelse,330,DE- Bygge/anlægsarbejde,,NCC Danmark A/S,,"959,336.00","5,180.0",185.00
+1089,28-Nov-14,Strandmældevej 22,4671,Strøby,Stevns,336,DE- Bygge/anlægsarbejde,,NCC Danmark A/S,,"959,336.00","5,180.0",185.00
+1090,28-Nov-14,Skolevænget 16,4622,Havdrup,Solrød,269,Tømrerarbejde,,Gamborg byg,,"133,342.00",465.0,287.00
+1091,28-Nov-14,Strandmældevej 22,4671,Strøby,Stevns,336,Tømrerarbejde,,Gamborg byg,,"108,944.00",380.0,287.00
+1092,28-Nov-14,Møllevej 2A,4648,Holme-Olstrup,Næstved,370,Tømrerarbejde,,Gamborg byg,,"133,135.00",455.0,293.00
+1093,28-Nov-14,Skolevænget 16,4642,Havdrup,Solrød,269,Tømrerarbejde,,Gamborg byg,,"107,612.00",400.0,269.00
+1094,02-Dec-14,Vendsysselvej 17,8940,Randers SV,Randers,730,Tømrerarbejde,,Gamborg byg,,"126,690.00",559.0,227.00
+1095,02-Dec-14,Tolstrupvej 91,9700,Brønderslev,Brønderslev,810,Tømrerarbejde,,Gamborg byg,,"126,690.00",559.0,227.00
+1096,02-Dec-14,Monstrupvej 1,9500,Hobro,Mariagerfjord,846,BYG- Bygge/anlægsarbejde,,Rationel tagdækning,,"17,854.00",70.0,255.00
+1097,02-Dec-14,Sdr. Ringvej 33,9670,Løgstør,Vesthimmerland,820,BYG- Bygge/anlægsarbejde,,Rationel tagdækning,,"17,488.00",68.0,257.00
+1098,02-Dec-14,Funder Møllevej 223,8600,Silkeborg,Silkeborg,740,BYG- Bygge/anlægsarbejde,,Rationel tagdækning,,"17,752.00",65.0,273.00
+1099,02-Dec-14,Ahornbakken 14,7400,Herning,Herning,657,BYG- Bygge/anlægsarbejde,,Rationel tagdækning,,"29,114.00",100.0,291.00
+1100,02-Dec-14,Tjørringparken 28,7400,Herning,Herning,657,BYG- Bygge/anlægsarbejde,,Rationel tagdækning,,"25,302.00",100.0,253.00
+1101,02-Dec-14,Ydunsvej 32,7400,Herning,Herning,657,Tømrerarbejde,,Gamborg byg,,"108,944.00",380.0,287.00
+1102,02-Dec-14,Urtehaven 11,7500,Holstebro,Holstebro,661,Tømrerarbejde,,Gamborg byg,,"108,944.00",380.0,287.00
+1103,02-Dec-14,Urtehaven 11,7500,Holstebro,Holstebro,661,Brolægning,,Haderslev Kommune,,"22,695.00",151.0,150.00
+1104,02-Dec-14,Skolegade,7400,Herning,Herning,657,Tagpap,,Syddansk Tagdækning,,"21,585.00",100.0,216.00
+1105,02-Dec-14,Skolegade,7400,Herning,Herning,657,Tagpap,,Syddansk Tagdækning,,"35,560.00",114.0,312.00
+1106,02-Dec-14,Skolegade,7400,Herning,Herning,657,Tagpap,,Syddansk Tagdækning,,"35,560.00",122.0,291.00
+1107,02-Dec-14,Skolegade,7400,Herning,Herning,657,Tagpap,,Syddansk Tagdækning,,"44,450.00",161.0,276.00
+1108,02-Dec-14,Skolegade,7400,Herning,Herning,657,Tagpap,,Syddansk Tagdækning,,"38,871.00",162.0,240.00
+1110,03-Dec-14,Skovvangen 2,6000,Kolding,Kolding,621,Tagpap,,Phønix Tag Vejle,,"321,906.00","1,325.0",243.00
+1111,04-Dec-14,Hanebjælken 175,9380,Vestbjerg,Aalborg,851,Tagpap,,Syddansk Tagdækning,,"20,000.00",80.0,250.00
+1114,04-Dec-14,Ahornbakken 14,7400,Herning,Herning,657,Murerarbejdsmænd,,Skjøde Knudsen,,"60,577.00",173.0,350.00
+1115,04-Dec-14,Ahornbakken 14,7400,Herning,Herning,657,Murerarbejdsmænd,,Hans Jørgensen & Søn,,"233,356.00",760.0,307.00
+1116,05-Dec-14,Thagårdsvej 6,9990,Skagen,Frederikshavn,813,BYG- Bygge/anlægsarbejde,,Dreier & Co.,,"27,018.00",150.0,180.00
+1117,08-Dec-14,Kirkestræde 1,5550,Langeskov,Kerteminde,440,BYG- Bygge/anlægsarbejde,,Kissendrup ent.,,"120,000.00",480.0,250.00
+1118,08-Dec-14,Dolken 2,7500,Holstebro,Holstebro,661,Murersvende,,KFS Boligbyg A/S,,"21,040.00",66.0,319.00
+1119,08-Dec-14,Skovgårdsvej 11,7500,Holstebro,Holstebro,661,Murersvende,,KFS Boligbyg A/S,,"8,234.00",62.0,133.00
+1120,09-Dec-14,Møllevej 2A,4648,Holme-Olstrup,Næstved,370,Murersvende,,KFS Boligbyg A/S,,"7,997.00",28.0,290.00
+1121,10-Dec-14,Kiplings Alle 55,9260,Gistrup,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"90,168.00",278.0,324.00
+1122,10-Dec-14,Halvøen 21,9530,Støvring,Rebild,840,Murersvende,,KFS Boligbyg A/S,,"200,393.00",663.0,302.00
+1123,10-Dec-14,Hedelundsparken,6700,Esbjerg,Esbjerg,561,Murersvende,,,,"6,124.00","2,224.0",3.00
+1124,10-Dec-14,"Frodesmark 6, Skovby",8464,Galten,Skanderborg,746,Murersvende,,KFS Boligbyg A/S,,"47,933.00",139.0,344.00
+1125,10-Dec-14,Vindingevej 36,5800,Nyborg,Nyborg,450,Murersvende,,KFS Boligbyg A/S,,"11,525.00",90.0,128.00
+1126,16-Dec-14,Romvigvej 7,7480,Vildbjerg,Herning,657,Murersvende,,KFS Boligbyg A/S,,"15,459.00",88.0,175.00
+1127,16-Dec-14,Blommehaven 6,7570,Vemb,Lemvig,665,Murersvende,,KFS Boligbyg A/S,,"77,924.00",237.0,329.00
+1128,16-Dec-14,Blommehaven 6,7570,Vemb,Lemvig,665,Murersvende,,HP Byg A/S,,"40,635.00",120.0,340.00
+1129,16-Dec-14,Stenbjergparken,6400,Sønderborg,Sønderborg,540,Murersvende,,Hornum Murer og Entreprenørforretning,,"231,603.00",909.0,255.00
+1130,16-Dec-14,Skovvangen 2,6000,Kolding,Kolding,621,Murersvende,,KFS Boligbyg A/S,,"79,322.00",246.0,322.00
+1131,16-Dec-14,Vesterdamsvænget 92,7400,Herning,Herning,657,Murersvende,,KFS Boligbyg A/S,,"71,939.00",270.0,266.00
+1132,16-Dec-14,Griegsvej 14,9220,Aalborg Øst,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"53,544.00",190.0,282.00
+1133,16-Dec-14,Kiplings Alle 93,9260,Gistrup,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"17,576.00",102.0,172.00
+1134,16-Dec-14,Vangen Blok 13 Opgang 1 - 5,9400,Nørresundby,Aalborg,851,Murersvende,,KFS Boligbyg A/S,,"11,037.00",70.0,158.00
+1135,16-Dec-14,Sports Allé 2,7480,Vildbjerg,Herning,657,Murersvende,,KFS Boligbyg A/S,,"9,906.00",53.0,187.00
+1136,18-Dec-14,Møllevej 28 Bolig 1-2,9530,Støvring,Rebild,840,Murersvende,,Morten Friis A/S,,"532,704.00","2,010.0",265.00
+1137,18-Dec-14,H.C. Andersensvej 10,9760,Vrå,Hjørring,860,Murerarbejdsmænd,,Morten Friis A/S,,"176,768.00",667.0,265.00
+1138,18-Dec-14,Fjorden 2,7600,Struer,Struer,671,Tagpap,,Rationel Tagdækning A/S,,"53,837.00",250.0,215.00
+1139,19-Dec-14,Kjærgårds Vænge 15,4330,Hvalsø,Lejre,350,Murersvende,,Lind & Risør,,"224,231.00",804.0,279.00
+1140,19-Dec-14,Kjærgårds Vænge 15,4330,Hvalsø,Lejre,350,Murerarbejdsmænd,,Lind & Risør,,"112,115.00",402.0,279.00
+1141,19-Dec-14,Postens Vej,7100,Vejle,Hedensted,766,Murersvende,,Lind & Risør,,"37,996.00",145.0,262.00
+1142,19-Dec-14,Hovedgaden 75,6720,Fanø,Fanø,563,Murersvende,,Lind & Risør,,"29,410.00",130.0,226.00
+1143,19-Dec-14,Skovvangen 2,6000,Kolding,Kolding,621,Murerarbejdsmænd,,Lind & Risør,,"20,963.00",80.0,262.00
+1144,19-Dec-14,Teglvænget 10,8700,Horsens,Horsens,615,Murerarbejdsmænd,,Lind & Risør,,"16,062.00",71.0,226.00
+1145,19-Dec-14,Grærup Havvej 2,6840,Oksbøl,Varde,573,Murerarbejdsmænd,,Niels Poulsen Aps,,"348,819.00","1,395.0",250.00
+1146,19-Dec-14,Kanalen 1,6700,Esbjerg,Esbjerg,561,Murerarbejdsmænd,,Niels Poulsen Aps,,"64,549.00",258.0,250.00
+1147,19-Dec-14,Næsmark 17,6200,Aabenraa,Aabenraa,580,Murersvende,,LIND & RISØR,,"43,124.00",180.0,240.00
+1148,19-Dec-14,Stenhuggervej 12,6700,Esbjerg,Esbjerg,561,Murerarbejdsmænd,,Lind & Risør,,"34,738.00",145.0,240.00
+1149,19-Dec-14,Stenhuggervej 12,6700,Esbjerg,Esbjerg,561,Murerarbejdsmænd,,Lind & Risør,,"28,343.00",113.0,251.00
+1150,19-Dec-14,Vindingevej 36,5800,Nyborg,Nyborg,450,Murerarbejdsmænd,,Lind & Risør,,"19,715.00",79.0,250.00
+1151,19-Dec-14,Ærøvej 32,4200,Slagelse,Slagelse,330,Murersvende,,Lind & Risør,,"46,658.00",186.0,251.00
+1152,19-Dec-14,Ærøvej 36,4200,Slagelse,Slagelse,330,Murersvende,,eurodan-huset,,"52,084.00",210.0,248.00
+1153,19-Dec-14,Ærøvej 6,4200,Slagelse,Slagelse,330,Murerarbejdsmænd,,eurodan-huset,,"37,199.00",149.0,250.00
+1154,19-Dec-14,Ærøvej 16,4200,Slagelse,Slagelse,330,Murersvende,,EBC Murerfirma,,"94,060.00",316.0,298.00
+1155,19-Dec-14,Ærøvej 26,4200,Slagelse,Slagelse,330,Murersvende,,EBC Murerfirma,,"135,364.00",558.0,243.00
+1156,19-Dec-14,Ærøvej 22,4200,Slagelse,Slagelse,330,Murersvende,,EBC Murerfirma,,"141,090.00",560.0,252.00
+1157,19-Dec-14,Ærøvej 32,4200,Slagelse,Slagelse,330,Murersvende,,EBC Murerfirma,,"138,227.00",557.0,248.00
+1158,19-Dec-14,Ærøvej 36,4200,Slagelse,Slagelse,330,Murersvende,,EBC Murerfirma,,"139,659.00",558.0,250.00
+1159,19-Dec-14,Ærøvej 6,4200,Slagelse,Slagelse,330,Murersvende,,EBC Murerfirma,,"93,461.00",321.0,291.00
+1160,19-Dec-14,Ærøvej 16,4200,Slagelse,Slagelse,330,Murerarbejdsmænd,,EBC Murerfirma,,"28,218.00",95.0,297.00
+1161,19-Dec-14,Ærøvej 26,4200,Slagelse,Slagelse,330,Murerarbejdsmænd,,EBC Murerfirma,,"40,609.00",167.0,243.00
+1162,19-Dec-14,Ærøvej 22,4200,Slagelse,Slagelse,330,Murerarbejdsmænd,,EBC Murerfirma,,"42,327.00",168.0,252.00
+1163,19-Dec-14,Skolevænget 22,4622,Havdrup,Solrød,269,Murerarbejdsmænd,,EBC Murerfirma,,"41,468.00",167.0,248.00
+1164,19-Dec-14,Skolevænget 22,4642,Havdrup,Solrød,269,Murerarbejdsmænd,,EBC Murerfirma,,"41,898.00",167.0,251.00
+1165,19-Dec-14,Gundsølillevej 41B,4000,Roskilde,Roskilde,265,Murerarbejdsmænd,,EBC Murerfirma,,"28,038.00",96.0,292.00
+1166,19-Dec-14,Kaare Klint Vej 33,4690,Haslev,Faxe,320,Murerarbejdsmænd,,Lind & Risør,,"18,317.00",78.0,235.00
+1167,19-Dec-14,Gundsølillevej 41B,4000,Roskilde,Roskilde,265,Murersvende,,Lind og Risør,,"34,877.00",150.0,233.00
+1168,19-Dec-14,Kaare Klint Vej 33,4690,Haslev,Faxe,320,Murersvende,,LIND & RISØR,,"25,903.00",110.0,235.00
+1169,20-Dec-14,Cortex Park 18B,5230,Odense M,Odense,461,Murerarbejdsmænd,,Lind & Risør,,"24,388.00",105.0,232.00
+1170,20-Dec-14,Grønningen,4200,Slagelse,Slagelse,330,Murerarbejdsmænd,,Lind & Risør,,"20,982.00",89.0,236.00
+1171,20-Dec-14,Grønningen,4200,Slagelse,Slagelse,330,Murersvende,,LIND & RISØR,,"32,716.00",135.0,242.00
+1172,22-Dec-14,Thagårdsvej 6,9990,Skagen,Frederikshavn,813,Murersvende,,Lind og Risør,,"41,654.00",165.0,252.00
+1173,22-Dec-14,Skolevænget 5,4622,Havdrup,Solrød,269,Murerarbejdsmænd,,Lind & Risør,,"31,135.00",125.0,249.00
+1174,22-Dec-14,Klintevej 44,4000,Roskilde,Roskilde,265,Murerarbejdsmænd,,Lind & Risør,,"26,765.00",108.0,248.00
+1175,22-Dec-14,H.C. Andersensvej 10,9760,Vrå,Hjørring,860,Murersvende,,Juel Ditlefsen& Nielsen,,"6,826.00",31.0,220.00
+1176,23-Dec-14,Brogade,6800,Varde,Varde,573,Murersvende,,Juel Ditlefsen& Nielsen,,"20,973.00",95.0,221.00
+1177,23-Dec-14,Askærgårdvej 6,6800,Varde,Varde,573,Murersvende,,Murer - Entrepernør Niels Poulsen ApS.,,"472,778.00","1,890.0",250.00
+1178,23-Dec-14,Krogsgård,6800,Varde,Varde,573,Murersvende,,Murer - Entrepernør Niels Poulsen ApS.,,"108,215.00",432.0,250.00
+1179,23-Dec-14,Maltvej 1,6600,Vejen,Vejen,575,Murersvende,,LIND & RISØR,,"27,402.00",110.0,249.00
+1180,23-Dec-14,Nørretorv,7200,Grindsted,Billund,530,Murersvende,,LIND & RISØR,,"27,475.00",115.0,239.00
+1181,23-Dec-14,Storegade,6700,Esbjerg,Esbjerg,561,DE- Bygge/anlægsarbejde,,Jorton,,"849,720.00","3,880.0",219.00
+1182,23-Dec-14,Ranukelvej 1,6900,Skjern,Ringkøbing-Skjern,760,DE- Bygge/anlægsarbejde,,Jorton,,"849,720.00","3,880.0",219.00
+1183,23-Dec-14,Storegade,6700,Esbjerg,Esbjerg,561,DE- Bygge/anlægsarbejde,,"Peter Christensen, Broby ApS",,"1,797,600.00","8,400.0",214.00
+1184,23-Dec-14,Troldhøjparken 9,6800,Varde,Varde,573,DE- Bygge/anlægsarbejde,,MTH,,"15,990,000.00","65,000.0",246.00
+1185,23-Dec-14,Nørrevænget 16,6933,Kibæk,Ringkøbing-Skjern,760,DE- Bygge/anlægsarbejde,,Nisgaard og Chrisoffersen,,"485,146.00","2,019.0",240.00
+1186,23-Dec-14,Kløvholmparken 10,6710,Esbjerg V,Esbjerg,561,DE- Bygge/anlægsarbejde,,A. Enggaard,,"17,569,137.00","69,913.0",251.00
+1187,23-Dec-14,Puggaardsvej 22,6760,Ribe,Esbjerg,561,DE- Bygge/anlægsarbejde,,CJ. Anlæg,,"352,995.00","1,398.0",253.00
+1188,23-Dec-14,Dalsøvej 177,7200,Grindsted,Billund,530,Murersvende,,Mørk & Skov ApS,,"93,113.00",331.0,281.00
+1189,23-Dec-14,Energivej,6650,Brørup,Vejen,575,Murersvende,,Axel Poulsen Holding ApS,,"206,811.00",738.0,280.00
+1190,29-Dec-14,Rømø,6700,Esbjerg,Esbjerg,561,Murersvende,,Murerfirmaet Nordfyn,,"47,513.00",192.0,247.00
+1191,29-Dec-14,Uranusvej,6800,Varde,Varde,573,Murersvende,,Murerfirmaet Nordfyn A/S,,"96,245.00",386.0,249.00
+1192,29-Dec-14,Guldregns Alle,6700,Esbjerg,Esbjerg,561,Murersvende,,Murerfirmaet Nordfyn,,"11,320.00",46.0,246.00
+1193,29-Dec-14,Storegade 227,6705,Esbjerg Ø,Esbjerg,561,Murersvende,,Skjøde,,"147,428.00",487.0,303.00
+1194,29-Dec-14,Storegade 227,6705,Esbjerg Ø,Esbjerg,561,Murersvende,,Dreier og co.,,"298,296.00","1,039.0",287.00
+1195,29-Dec-14,Seminarievej,6760,Ribe,Esbjerg,561,Murersvende,,Hans Jørgensen & søn,,"717,900.00","2,334.0",308.00
+1196,29-Dec-14,Damvej,6760,Ribe,Esbjerg,561,Murersvende,,Dreier & Co,,"59,522.00",275.0,216.00
+1197,30-Dec-14,Klintevej 44,4000,Roskilde,Roskilde,265,Murersvende,,Dreier & Co,,"70,557.00",272.0,259.00
+1198,30-Dec-14,Skolevænget 5,4642,Havdrup,Solrød,269,Murersvende,,Dreier og Co.,,"50,130.00",162.0,309.00
+1199,30-Dec-14,Roskildevej 65,2620,Albertslund,Albertslund,165,DE- Bygge/anlægsarbejde,,MTH,,"4,436,118.00","19,514.0",227.00
+1200,30-Dec-14,Ørestaden,2300,København S,København,101,DE- Bygge/anlægsarbejde,,MTH,,"5,113,643.00","21,750.0",235.00
+1201,30-Dec-14,Ad Jørgensensvej,2000,Frederiksberg,Frederiksberg,147,DE- Bygge/anlægsarbejde,,kornerup,,"848,072.00","3,736.0",227.00
+1202,30-Dec-14,Karen Blixens Vej 4,2300,København S,København,101,DE- Bygge/anlægsarbejde,,CBB,,"2,575,755.00","13,923.0",185.00
+1203,30-Dec-14,Karen Blixens Vej 4,2300,København S,København,101,DE- Bygge/anlægsarbejde,,LM-byg,,"1,765,980.00","9,811.0",180.00

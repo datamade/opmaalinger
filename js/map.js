@@ -5,7 +5,7 @@ var hover_labels = [];
 
     //config values
     var geojson_file = 'data/dk-municipalities.geojson';
-    var google_doc_id = '0Ak8prRBkmySYdFFyVEwtMXVHV0Rod1RMNVo1b3dEcFE';
+    var csv_url = 'data/3F-data - Ark1.csv';
     var geo_id = 'komnr';
     var color_id = 'Hovedtotal';
     var map_colors = [
@@ -59,7 +59,7 @@ var hover_labels = [];
       function(shapes){
 
         // go get the google doc
-        $.when(get_google_doc_data(google_doc_id)).then(
+        $.when(get_csv_data(csv_url)).then(
           function(csv){
 
             //company aggregation for each shape from google doc
@@ -289,10 +289,9 @@ var hover_labels = [];
         return x1 + x2;
     }
 
-    function get_google_doc_data(doc_id){
-      var doc_url = "https://docs.google.com/spreadsheet/pub?key=" + doc_id + "&output=csv";
+    function get_csv_data(csv_url){
       return $.ajax({
-          url: doc_url
+          url: csv_url
       });
     }
 
